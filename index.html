@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>فرصتي | FORSATI – اكتشف فرصتك القادمة</title>
+<meta name="description" content="فرصتي: منصة تجمع الفرص المهمة في مكان واحد: وظائف ومسابقات ومنح وتكوين وتدريب، من مصادرها الأصلية وتُحدَّث تلقائيًا.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://*.supabase.co wss://*.supabase.co; manifest-src 'self'; worker-src 'self'; form-action 'self'; base-uri 'self'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#0B6B4F">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="فرصتي">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.47.10/dist/umd/supabase.js"></script>
+<script defer src="auth.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<div id="splash" role="presentation">
+  <img src="icon.svg" alt="" width="104" height="104">
+  <div class="by"><span data-i18n="builtBy">تطبيق مصمم ومطور من</span><strong>Sid Ahmed Taieb Amour</strong></div>
+</div>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="./"><img src="icon-192.png" alt="" width="34" height="34"><span data-i18n="brand">فرصتي</span></a>
+    <nav class="desk-nav" aria-label="main">
+      <button type="button" data-tab="all" data-i18n="tabAll"></button>
+      <button type="button" data-tab="saved" data-i18n="tabSaved"></button>
+      <button type="button" data-tab="about" data-i18n="tabAbout"></button>
+    </nav>
+    <select class="lang" id="lang" aria-label="Language">
+      <option value="ar">العربية</option>
+      <option value="fr">Français</option>
+      <option value="en">English</option>
+    </select>
+    <button type="button" class="icon-btn" id="gearBtn" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+    <button type="button" class="acct" id="acctBtn"></button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <h1 data-i18n="title"></h1>
+    <p data-i18n="lead"></p>
+  </section>
+
+  <section class="tools" aria-label="filters">
+    <label class="search">
+      <span class="sr" data-i18n="search"></span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" id="q" data-i18n-ph="search" autocomplete="off">
+    </label>
+    <div class="suggest" id="suggest"></div>
+    <div class="row">
+      <select id="country" aria-label="Country"></select>
+      <select id="sort" aria-label="Sort"></select>
+      <select id="cost" aria-label="Price"></select>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Categories"></div>
+  </section>
+
+  <div class="count" id="count" aria-live="polite"></div>
+  <section class="list" id="list" aria-live="polite"></section>
+  <section class="about" id="about" hidden></section>
+  <section class="dash" id="dash" hidden></section>
+  <p class="foot" id="foot"></p>
+  <p class="foot"><a href="privacy.html" data-i18n="privacy"></a></p>
+</main>
+
+<nav class="bnav" aria-label="main">
+  <button type="button" data-tab="all"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11 12 4l8 7v8a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z"/></svg><span data-i18n="tabAll"></span></button>
+  <button type="button" data-tab="saved"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1z"/></svg><span data-i18n="tabSaved"></span></button>
+  <button type="button" data-tab="about"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5v.01"/></svg><span data-i18n="tabAbout"></span></button>
+  <button type="button" id="navAcct"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg><span data-i18n="tabAccount"></span></button>
+</nav>
+
+<dialog id="authDialog" aria-labelledby="authTitle">
+  <div class="sheet">
+    <button type="button" class="icon-btn close" id="authClose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <h2 id="authTitle"></h2>
+    <p class="lead" id="authLead"></p>
+
+    <div id="guestView">
+      <button type="button" class="btn google" id="googleBtn">
+        <svg viewBox="0 0 24 24"><path fill="#EA4335" d="M12 10.2v3.9h5.5c-.2 1.3-1.6 3.8-5.5 3.8a6 6 0 1 1 0-12c1.9 0 3.1.8 3.8 1.5l2.6-2.5A9.6 9.6 0 0 0 12 2.4a9.6 9.6 0 1 0 0 19.2c5.5 0 9.2-3.9 9.2-9.3 0-.6-.1-1.1-.2-1.6z"/></svg>
+        <span data-i18n="google"></span>
+      </button>
+      <div class="or" id="orRow"><span data-i18n="or"></span></div>
+      <form id="authForm" novalidate>
+        <label><span data-i18n="email"></span><input type="email" id="authEmail" required autocomplete="email" inputmode="email" dir="ltr"></label>
+        <label id="pwRow"><span data-i18n="password"></span><input type="password" id="authPassword" minlength="8" autocomplete="current-password" dir="ltr"></label>
+        <button type="submit" class="btn primary" id="authSubmit"></button>
+      </form>
+      <div class="links">
+        <button type="button" class="link" id="forgotBtn"></button>
+        <button type="button" class="link" id="switchBtn"></button>
+      </div>
+    </div>
+
+    <div id="accountView" hidden>
+      <p class="acc-email" id="accEmail" dir="ltr"></p>
+      <ul class="ids" id="accIds"></ul>
+      <div class="stack">
+        <button type="button" class="btn" id="linkGoogle" data-i18n="linkGoogle"></button>
+        <button type="button" class="btn" id="logoutBtn" data-i18n="logout"></button>
+      </div>
+    </div>
+
+    <form id="recoveryView" hidden novalidate>
+      <label><span data-i18n="newPassword"></span><input type="password" id="newPassword" minlength="8" autocomplete="new-password" dir="ltr"></label>
+      <button type="submit" class="btn primary" data-i18n="savePassword"></button>
+    </form>
+
+    <p class="msg" id="authMsg" role="status"></p>
+    <p class="fine"><span data-i18n="consent"></span> <a href="privacy.html" data-i18n="privacy"></a></p>
+  </div>
+</dialog>
+
+<dialog id="setDialog" aria-labelledby="setTitle">
+  <div class="sheet">
+    <button type="button" class="icon-btn close" id="setClose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <h2 id="setTitle" data-i18n="settings"></h2>
+    <p class="lead" data-i18n="settingsLead"></p>
+    <div class="grp"><h3 data-i18n="language"></h3>
+      <div class="seg" id="segLang" role="group"><button type="button" data-v="ar">العربية</button><button type="button" data-v="fr">Français</button><button type="button" data-v="en">English</button></div></div>
+    <div class="grp"><h3 data-i18n="appearance"></h3>
+      <div class="seg" id="segTheme" role="group"><button type="button" data-v="system" data-i18n="themeSystem"></button><button type="button" data-v="light" data-i18n="themeLight"></button><button type="button" data-v="dark" data-i18n="themeDark"></button></div></div>
+    <div class="grp"><h3 data-i18n="textSize"></h3>
+      <div class="seg" id="segSize" role="group"><button type="button" data-v="s" data-i18n="sizeS"></button><button type="button" data-v="m" data-i18n="sizeM"></button><button type="button" data-v="l" data-i18n="sizeL"></button></div></div>
+    <div class="grp"><h3 data-i18n="interests"></h3><p class="hint" data-i18n="interestsHint"></p><div class="pick" id="pickCats"></div></div>
+    <div class="grp"><h3 data-i18n="defaultCountry"></h3><select id="setCountry"></select></div>
+    <p class="fine" id="setSync"></p>
+    <button type="button" class="btn primary" id="setDone" data-i18n="done"></button>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" hidden role="status"></div>
+</body>
+</html>

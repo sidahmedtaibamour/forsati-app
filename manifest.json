@@ -1,0 +1,17 @@
+{
+  "name": "فرصتي | FORSATI",
+  "short_name": "فرصتي",
+  "description": "منصة تجمع الفرص المهمة في مكان واحد: وظائف ومسابقات ومنح وتكوين وتدريب.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#F2F5F3",
+  "theme_color": "#0B6B4F",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

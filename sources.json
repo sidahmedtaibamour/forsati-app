@@ -1,0 +1,313 @@
+{
+  "_help": "كل مصدر = رابط RSS/Atom. category: jobs, education, scholarships, competitions, training, tools. country: DZ أو INT. filter=true: انشر فقط ما يطابق تصنيفًا واضحًا. أضف مصدرًا بنسخ سطر وتغيير الرابط. حيلة: أي موقع ووردبريس يمكن جلب موضوع منه برابط مثل https://الموقع/?s=كلمة&feed=rss2 | type=html: لمواقع بلا RSS، يقرأ الروابط من الصفحة نفسها (أقل دقة).",
+  "sources": [
+    {
+      "name": "مدونة التوظيف في الجزائر",
+      "url": "https://www.jobs4dz.com/feed/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "filter": false
+    },
+    {
+      "name": "SFN Emploi",
+      "url": "https://sfnemploi.com/feed/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "filter": false
+    },
+    {
+      "name": "توظيف دي زد",
+      "url": "https://tawothifdz.com/feed/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "filter": false
+    },
+    {
+      "name": "Job Educ",
+      "url": "https://job-educ.com/feed/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "filter": false
+    },
+    {
+      "name": "SFN Emploi · منح",
+      "url": "https://sfnemploi.com/?s=%D9%85%D9%86%D8%AD%D8%A9&feed=rss2",
+      "country": "DZ",
+      "category": "scholarships",
+      "lang": "ar",
+      "filter": true
+    },
+    {
+      "name": "SFN Emploi · تكوين",
+      "url": "https://sfnemploi.com/?s=%D8%AA%D9%83%D9%88%D9%8A%D9%86&feed=rss2",
+      "country": "DZ",
+      "category": "training",
+      "lang": "ar",
+      "filter": true
+    },
+    {
+      "name": "Job Educ · تكوين",
+      "url": "https://job-educ.com/?s=%D8%AA%D9%83%D9%88%D9%8A%D9%86&feed=rss2",
+      "country": "DZ",
+      "category": "training",
+      "lang": "ar",
+      "filter": true
+    },
+    {
+      "name": "jobs4dz · تكوين مهني",
+      "url": "https://www.jobs4dz.com/?s=%D8%AA%D9%83%D9%88%D9%8A%D9%86&feed=rss2",
+      "country": "DZ",
+      "category": "training",
+      "lang": "ar",
+      "filter": true
+    },
+    {
+      "name": "jobs4dz · حرف",
+      "url": "https://www.jobs4dz.com/?s=%D8%AD%D8%B1%D9%81%D8%A9&feed=rss2",
+      "country": "DZ",
+      "category": "training",
+      "lang": "ar",
+      "filter": true
+    },
+    {
+      "name": "Jobicy (وظائف عن بعد)",
+      "url": "https://jobicy.com/jobs-rss-feed",
+      "country": "INT",
+      "category": "jobs",
+      "lang": "en",
+      "filter": false
+    },
+    {
+      "name": "We Work Remotely",
+      "url": "https://weworkremotely.com/remote-jobs.rss",
+      "country": "INT",
+      "category": "jobs",
+      "lang": "en",
+      "filter": false
+    },
+    {
+      "name": "Opportunity Desk",
+      "url": "https://opportunitydesk.org/feed/",
+      "country": "INT",
+      "category": "scholarships",
+      "lang": "en",
+      "filter": true
+    },
+    {
+      "name": "Scholars4Dev",
+      "url": "https://www.scholars4dev.com/feed/",
+      "country": "INT",
+      "category": "scholarships",
+      "lang": "en",
+      "filter": false
+    },
+    {
+      "name": "Opportunities For Africans",
+      "url": "https://www.opportunitiesforafricans.com/feed/",
+      "country": "INT",
+      "category": "scholarships",
+      "lang": "en",
+      "filter": true
+    },
+    {
+      "name": "Scholarship Positions",
+      "url": "https://scholarship-positions.com/feed/",
+      "country": "INT",
+      "category": "scholarships",
+      "lang": "en",
+      "filter": false
+    },
+    {
+      "name": "After School Africa",
+      "url": "https://www.afterschoolafrica.com/feed/",
+      "country": "INT",
+      "category": "scholarships",
+      "lang": "en",
+      "filter": true
+    },
+    {
+      "name": "وزارة الدفاع الوطني",
+      "url": "https://www.mdn.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "وزارة التربية الوطنية",
+      "url": "https://www.education.gov.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "وزارة التعليم العالي",
+      "url": "https://www.mesrs.dz/",
+      "country": "DZ",
+      "category": "scholarships",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "مسابقات الوظيف العمومي",
+      "url": "https://concours-fonction-publique.gov.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "الوكالة الوطنية للتشغيل ANEM",
+      "url": "https://www.anem.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "وزارة العمل والتشغيل",
+      "url": "https://www.mtess.gov.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "وزارة التكوين والتعليم المهنيين",
+      "url": "https://www.mfep.gov.dz/",
+      "country": "DZ",
+      "category": "training",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "وزارة الصحة",
+      "url": "https://www.sante.gov.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "وزارة الداخلية",
+      "url": "https://www.interieur.gov.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "الأمن الوطني DGSN",
+      "url": "https://www.dgsn.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "الديوان الوطني للتعليم والتكوين عن بعد",
+      "url": "https://www.onefd.edu.dz/",
+      "country": "DZ",
+      "category": "education",
+      "lang": "ar",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "سوناطراك",
+      "url": "https://sonatrach.com/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "fr",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "سونلغاز",
+      "url": "https://www.sonelgaz.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "fr",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "بريد الجزائر",
+      "url": "https://www.poste.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "fr",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "الخطوط الجوية الجزائرية",
+      "url": "https://www.airalgerie.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "fr",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "اتصالات الجزائر",
+      "url": "https://www.algerietelecom.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "fr",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "موبيليس",
+      "url": "https://www.mobilis.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "fr",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "جازي",
+      "url": "https://www.djezzy.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "fr",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "أوريدو الجزائر",
+      "url": "https://www.ooredoo.dz/",
+      "country": "DZ",
+      "category": "jobs",
+      "lang": "fr",
+      "type": "html",
+      "filter": true
+    },
+    {
+      "name": "ReliefWeb (وظائف المنظمات الدولية)",
+      "url": "https://reliefweb.int/jobs/rss.xml",
+      "country": "INT",
+      "category": "jobs",
+      "lang": "en",
+      "type": "rss",
+      "filter": false
+    }
+  ]
+}
