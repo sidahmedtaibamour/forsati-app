@@ -1,8 +1,8 @@
 {
- "checked_at": "2026-11-06T07:23:35.037Z",
- "total": 180,
+ "checked_at": "2026-11-06T08:08:14.351Z",
+ "total": 185,
  "expired_this_run": 0,
- "added_this_run": 16,
+ "added_this_run": 5,
  "sources": [
   {
    "name": "مدونة التوظيف في الجزائر",
@@ -89,7 +89,7 @@
    "url": "https://weworkremotely.com/remote-jobs.rss",
    "ok": true,
    "fetched": 100,
-   "added": 16,
+   "added": 0,
    "error": null
   },
   {
@@ -225,7 +225,7 @@
    "url": "https://sonatrach.com/",
    "ok": true,
    "fetched": 41,
-   "added": 0,
+   "added": 3,
    "error": null
   },
   {
@@ -265,7 +265,7 @@
    "url": "https://www.mobilis.dz/",
    "ok": true,
    "fetched": 29,
-   "added": 0,
+   "added": 2,
    "error": null
   },
   {
