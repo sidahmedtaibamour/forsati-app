@@ -13,7 +13,7 @@ const DAY = 86400000;
 const MAX_NEW_AGE_DAYS = 60;   // ignore feed entries older than this
 const MAX_ITEMS = 800;
 // When no deadline is found, an item disappears after this many days.
-const TTL_DAYS = { jobs: 45, competitions: 30, scholarships: 120, education: 120, training: 60, tools: 180 };
+const TTL_DAYS = { jobs: 45, competitions: 30, scholarships: 120, education: 120, training: 60, tools: 180, news: 30 };
 const CATS = Object.keys(TTL_DAYS);
 
 /* ---------- text helpers ---------- */
@@ -93,10 +93,11 @@ const RULE_WORDS = {
   scholarships: ["منحه", "منح", "bourse*", "scholarship*", "fellowship*", "grant", "grants", "stipend*", "fully funded"],
   competitions: ["مسابقه", "مسابقات", "جائزه", "جوائز", "جايزه", "concours", "competition*", "contest*", "prize*", "award", "awards", "challenge*", "hackathon*", "olympiad*", "olympiade*"],
   training: ["تربص", "تدريب", "تكوين", "دوره تدريبيه", "stage", "stages", "internship*", "trainee*", "traineeship*", "apprenti*", "training*", "formation professionnelle", "تكوين مهني", "حرفه", "حرفيين", "ورشه", "ورشات", "cfpa", "inpp", "vocational*", "workshop*"],
+  news: ["رزنامه", "عطل", "عطله", "نتائج", "قائمه المقبولين", "قائمه الناجحين", "امتحان", "قرار", "بيان", "تعليمه", "منشور وزاري", "اخبار", "calendrier", "vacances", "resultats", "communique", "circulaire", "holiday*", "news"],
   tools: ["اداه مجانيه", "ادوات مجانيه", "موقع مجاني", "تطبيق مجاني", "برنامج مجاني", "free tool*", "outil gratuit", "outils gratuits", "free software", "free app*", "free template*", "logiciel gratuit", "application gratuite"],
 };
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-const RULES = Object.entries(RULE_WORDS).map(([cat, words]) => ({
+const RULES = Object.entries(RULE_WORDS).sort(([a], [b]) => (a === "news") - (b === "news")).map(([cat, words]) => ({
   cat,
   tests: words.map((w) => {
     const word = norm(w.replace(/\*$/, ""));
@@ -109,6 +110,7 @@ const RULES = Object.entries(RULE_WORDS).map(([cat, words]) => ({
 }));
 export function classify(title, text, fallback = "education") {
   const t = norm(title), b = norm(text).slice(0, 700);
+  if (/(^|[^a-z0-9])(نتايج|قائمه المقبولين|قائمه الناجحين|resultats|results)/.test(t)) return { category: "news", score: 9 };
   let best = fallback, top = 0;
   for (const { cat, tests } of RULES) {
     const inTitle = tests.filter((f) => f(t)).length;
@@ -249,7 +251,7 @@ export async function run() {
         const text = e.text;
         const { category, score } = classify(e.title, text, src.category);
         if ((src.filter ?? src.type === "html") && score === 0) continue;
-        const deadline = findDeadline(e.title + " . " + text, now);
+        const deadline = category === "news" ? null : findDeadline(e.title + " . " + text, now);
         if (byId.has(id)) {
           const old = byId.get(id);
           if (!old.deadline && deadline) old.deadline = deadline;
@@ -269,6 +271,12 @@ export async function run() {
       }
     } catch (err) { r.error = String(err.message || err); }
     report.push(r);
+  }
+
+  // Re-check old items: calendars, results and decisions belong to News, not to opportunities.
+  for (const it of byId.values()) {
+    const c = classify(it.title, it.summary || "", it.category);
+    if (c.category === "news" && c.score >= 3 && it.category !== "news") { it.category = "news"; it.deadline = null; it.cost = null; }
   }
 
   // Expire: past deadline, or too old when no deadline is known.

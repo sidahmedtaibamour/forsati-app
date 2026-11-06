@@ -11,7 +11,7 @@ const T = {
     forYou: "مخصّص لك", showAll: "عرض كل الفرص", showMine: "عرض ما يهمني",
     dashTitle: "لوحة التحكم", hello: (n) => `أهلًا ${n}`, statSaved: "المحفوظات", statNew: "جديد لك (3 أيام)", statSoon: "تنتهي خلال أسبوع", soonTitle: "محفوظات تنتهي قريبًا", noSoon: "لا شيء من محفوظاتك ينتهي قريبًا.",
     goSaved: "محفوظاتي", goSettings: "الإعدادات",
-    tabAbout: "عن فرصتي", privacy: "سياسة الخصوصية", builtBy: "تطبيق مصمم ومطور من", installTitle: "ثبّت التطبيق على هاتفك", installText: "على iPhone: افتح الموقع في Safari ثم زر المشاركة ثم «إضافة إلى الشاشة الرئيسية». على أندرويد: قائمة المتصفح (⋮) ثم «تثبيت التطبيق».",
+    tabAbout: "عن فرصتي", tabNews: "الأخبار", news: "أخبار", contact: "للتواصل:", killTitle: "التطبيق متوقف مؤقتًا", killText: "نعمل على أمر ما. عد بعد قليل.", privacy: "سياسة الخصوصية", builtBy: "تطبيق مصمم ومطور من", installTitle: "ثبّت التطبيق على هاتفك", installText: "على iPhone: افتح الموقع في Safari ثم زر المشاركة ثم «إضافة إلى الشاشة الرئيسية». على أندرويد: قائمة المتصفح (⋮) ثم «تثبيت التطبيق».",
     consent: "بالمتابعة فأنت توافق على", suggest: ["أساتذة", "إداري", "الجيش", "الدرك", "الشرطة", "تكوين مهني", "منحة", "عن بعد"],
     about: {
       title: "عن فرصتي",
@@ -71,7 +71,7 @@ const T = {
     forYou: "Pour vous", showAll: "Tout afficher", showMine: "Mes centres d'intérêt",
     dashTitle: "Tableau de bord", hello: (n) => `Bonjour ${n}`, statSaved: "Enregistrées", statNew: "Nouveautés (3 jours)", statSoon: "Expirent sous 7 jours", soonTitle: "Enregistrées qui expirent bientôt", noSoon: "Rien d'enregistré n'expire bientôt.",
     goSaved: "Mes enregistrées", goSettings: "Réglages",
-    tabAbout: "À propos", privacy: "Politique de confidentialité", builtBy: "Application conçue et développée par", installTitle: "Installez l'application", installText: "Sur iPhone : ouvrez le site dans Safari, touchez Partager puis « Sur l'écran d'accueil ». Sur Android : menu du navigateur (⋮) puis « Installer l'application ».",
+    tabAbout: "À propos", tabNews: "Actualités", news: "Actualités", contact: "Contact :", killTitle: "Application temporairement suspendue", killText: "Nous travaillons dessus. Revenez bientôt.", privacy: "Politique de confidentialité", builtBy: "Application conçue et développée par", installTitle: "Installez l'application", installText: "Sur iPhone : ouvrez le site dans Safari, touchez Partager puis « Sur l'écran d'accueil ». Sur Android : menu du navigateur (⋮) puis « Installer l'application ».",
     consent: "En continuant, vous acceptez la", suggest: ["enseignants", "administratif", "armée", "gendarmerie", "police", "formation professionnelle", "bourse", "télétravail"],
     about: {
       title: "À propos de Forsati",
@@ -130,7 +130,7 @@ const T = {
     forYou: "For you", showAll: "Show everything", showMine: "Show my interests",
     dashTitle: "Dashboard", hello: (n) => `Hello ${n}`, statSaved: "Saved", statNew: "New for you (3 days)", statSoon: "Ending within a week", soonTitle: "Saved listings ending soon", noSoon: "Nothing you saved ends soon.",
     goSaved: "My saved", goSettings: "Settings",
-    tabAbout: "About", privacy: "Privacy policy", builtBy: "App designed and developed by", installTitle: "Install the app", installText: "On iPhone: open the site in Safari, tap Share, then “Add to Home Screen”. On Android: browser menu (⋮), then “Install app”.",
+    tabAbout: "About", tabNews: "News", news: "News", contact: "Contact:", killTitle: "App temporarily paused", killText: "We are working on it. Please come back soon.", privacy: "Privacy policy", builtBy: "App designed and developed by", installTitle: "Install the app", installText: "On iPhone: open the site in Safari, tap Share, then “Add to Home Screen”. On Android: browser menu (⋮), then “Install app”.",
     consent: "By continuing you agree to the", suggest: ["teachers", "admin", "army", "gendarmerie", "police", "vocational", "scholarship", "remote"],
     about: {
       title: "About Forsati",
@@ -183,6 +183,16 @@ const T = {
   },
 };
 const CATS = ["jobs", "education", "scholarships", "competitions", "training", "tools"];
+const S = (p) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+const CAT_ICON = {
+  jobs: S('<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>'),
+  education: S('<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M6.5 17A2.5 2.5 0 0 0 4 19.5V21h16"/>'),
+  scholarships: S('<path d="M22 9 12 4 2 9l10 5z"/><path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5M22 9v6"/>'),
+  competitions: S('<path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/>'),
+  training: S('<path d="M9 4h6v3H9z"/><path d="M7 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1"/><path d="m9 14 2 2 4-4"/>'),
+  tools: S('<path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/>'),
+  news: S('<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2M7 9h7M7 13h7M7 16h4"/>'),
+};
 const ICON = {
   heart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-9-9.2C1.8 7.6 3.7 4.5 7 4.5c2 0 3.4 1.1 5 3 1.6-1.9 3-3 5-3 3.3 0 5.2 3.1 4 6.3-2 4.8-9 9.2-9 9.2z"/></svg>',
   share: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>',
@@ -329,14 +339,22 @@ async function loadRemote() {
     if (!m.error && m.data) state.manual = m.data.map((r) => ({ id: "m:" + r.id, title: r.title, summary: r.summary || "", category: r.category, country: r.country || "DZ", source: r.source || "", url: r.url, deadline: r.deadline || null, cost: r.cost || null, published_at: r.created_at, manual: true }));
     if (!h.error && h.data) state.hidden = new Set(h.data.map((r) => r.id));
     rebuildItems(); buildSelects(); render();
+    const k = await Auth.client.from("app_settings").select("value").eq("key", "kill").maybeSingle();
+    if (!k.error && k.data && k.data.value && k.data.value.on === true) showKill(k.data.value.message);
   } catch (e) { console.error(e); }
+}
+function showKill(message) {
+  if ($("#kill")) return;
+  const d = document.createElement("div"); d.id = "kill"; d.setAttribute("role", "alert");
+  d.innerHTML = `<div><img src="icon-192.png" alt="" width="84" height="84"><h1>${esc(t("killTitle"))}</h1><p>${esc(message || t("killText"))}</p></div>`;
+  document.body.appendChild(d);
 }
 
 /* ---------- rendering ---------- */
 function filtered(base) {
   const q = fold(state.q.trim());
   return base.filter((it) => {
-    if (state.tab === "all" && isExpired(it)) return false;
+    if ((state.tab === "all" || state.tab === "news") && isExpired(it)) return false;
     if (state.tab === "all" && !state.showAll && state.prefs.cats && !state.prefs.cats.includes(it.category)) return false;
     if (state.country !== "all" && it.country !== state.country) return false;
     if (state.cost !== "all" && it.cost !== state.cost) return false;
@@ -345,10 +363,11 @@ function filtered(base) {
   });
 }
 function card(it, savedView) {
-  const c = `var(--cat-${CATS.includes(it.category) ? it.category : "tools"})`;
+  const c = `var(--cat-${CATS.includes(it.category) || it.category === "news" ? it.category : "tools"})`;
   const fav = state.favs.has(it.id);
   let pill;
-  if (it.deadline) {
+  if (it.category === "news") pill = "";
+  else if (it.deadline) {
     const d = daysTo(it.deadline);
     if (d < 0) pill = `<span class="pill gone">${t("expired")}</span>`;
     else pill = `<span class="pill ${d <= 3 ? "urgent" : d <= 14 ? "soon" : "ok"}">${d === 0 ? t("today") : d === 1 ? t("tomorrow") : t("left", d)}</span>`;
@@ -356,7 +375,7 @@ function card(it, savedView) {
   else pill = `<span class="pill none">${t("noDeadline")}</span>`;
   const ago = agoLabel(it);
   return `<article class="card" style="--c:${c}">
-    <div class="meta"><span class="cat">${esc(t(it.category) || "")}</span><span>${esc(countryLabel(it.country || "DZ"))}</span>${it.cost ? `<span class="cost ${it.cost}">${esc(t(it.cost))}</span>` : ""}</div>
+    <div class="meta"><span class="cat">${CAT_ICON[it.category] || ""}${esc(t(it.category) || "")}</span><span>${esc(countryLabel(it.country || "DZ"))}</span>${it.cost ? `<span class="cost ${it.cost}">${esc(t(it.cost))}</span>` : ""}</div>
     <h3>${esc(it.title)}</h3>
     ${it.summary ? `<p class="sum">${esc(it.summary)}</p>` : ""}
     <div class="when">${pill}<span>${esc([ago, it.source].filter(Boolean).join(" · "))}</span></div>
@@ -375,22 +394,25 @@ function render() {
     list.innerHTML = `<div class="empty"><strong>${t("loadErr")}</strong><button type="button" class="btn" id="retry">${t("retry")}</button></div>`;
     $("#count").textContent = ""; return;
   }
-  const saved = state.tab === "saved";
-  const base = saved ? [...state.favs.values()].sort((a, b) => Date.parse(b.saved_at || 0) - Date.parse(a.saved_at || 0)) : state.items;
+  const saved = state.tab === "saved", news = state.tab === "news";
+  const base = saved ? [...state.favs.values()].sort((a, b) => Date.parse(b.saved_at || 0) - Date.parse(a.saved_at || 0))
+    : news ? state.items.filter((x) => x.category === "news") : state.items.filter((x) => x.category !== "news");
   const pool = filtered(base);
-  const mine = !saved && !state.showAll && state.prefs.cats;
+  const mine = !saved && !news && !state.showAll && state.prefs.cats;
   const cats = mine ? CATS.filter((c) => state.prefs.cats.includes(c)) : CATS;
   if (state.cat !== "all" && !cats.includes(state.cat)) state.cat = "all";
   // chips with counts (ignoring the category filter itself)
   $("#chips").innerHTML = [["all", pool.length], ...cats.map((c) => [c, pool.filter((x) => x.category === c).length])]
-    .map(([c, n]) => `<button type="button" class="chip" data-cat="${c}" aria-pressed="${state.cat === c}"${c === "all" ? "" : ` style="--c:var(--cat-${c})"`}>${c === "all" ? "" : "<i></i>"}${t(c)} <small>${n}</small></button>`).join("");
-  let rows = state.cat === "all" ? pool : pool.filter((x) => x.category === state.cat);
-  if (!saved) {
+    .map(([c, n]) => `<button type="button" class="chip" data-cat="${c}" aria-pressed="${state.cat === c}"${c === "all" ? "" : ` style="--c:var(--cat-${c})"`}>${c === "all" ? "" : CAT_ICON[c]}${t(c)} <small>${n}</small></button>`).join("");
+  if (news) $("#chips").innerHTML = "";
+  let rows = news || state.cat === "all" ? pool : pool.filter((x) => x.category === state.cat);
+  if (!saved && !news) {
     rows = [...rows].sort(state.sort === "deadline"
       ? (a, b) => (a.deadline ? Date.parse(a.deadline) : 9e15) - (b.deadline ? Date.parse(b.deadline) : 9e15) || pubTime(b) - pubTime(a)
       : (a, b) => pubTime(b) - pubTime(a));
   }
-  const hasPrefs = !saved && state.prefs.cats;
+  const hasPrefs = !saved && !news && state.prefs.cats;
+  if (news) rows = [...rows].sort((a, b) => pubTime(b) - pubTime(a));
   $("#count").innerHTML = `${esc(t("count", rows.length))} · ${esc(updatedLabel())}${hasPrefs ? ` · ${esc(state.showAll ? "" : t("forYou"))} <button type="button" class="link" id="togglePrefs">${esc(state.showAll ? t("showMine") : t("showAll"))}</button>` : ""}`;
   if (!rows.length) {
     const none = !state.items.length && !saved;
@@ -441,7 +463,8 @@ function renderAbout() {
     <div class="vision"><h3>${esc(A.visionTitle)}</h3><p>${esc(A.vision)}</p></div>
     <div class="vision"><h3>${esc(t("installTitle"))}</h3><p>${esc(t("installText"))}</p></div>
     <p class="tagline">${esc(A.tagline)}</p>
-    <p class="dev">${esc(t("builtBy"))} <strong>Sid Ahmed Taieb Amour</strong></p>`;
+    <p class="dev">${esc(t("builtBy"))} <strong>Sid Ahmed Taieb Amour</strong></p>
+    <p class="dev">${esc(t("contact"))} <a href="mailto:sidahmedtaibamour@gmail.com" dir="ltr">sidahmedtaibamour@gmail.com</a></p>`;
 }
 function renderSuggest() {
   $("#suggest").innerHTML = T[state.lang].suggest.map((w) => `<button type="button" data-q="${esc(w)}">${esc(w)}</button>`).join("");
@@ -616,6 +639,8 @@ $("#list").addEventListener("click", (e) => {
 });
 $("#chips").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (b) { state.cat = b.dataset.cat; render(); } });
 $("#q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
+$("#q").addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); e.target.blur(); } });
+$("#q").addEventListener("search", (e) => { if (e.target.value) e.target.blur(); });
 $("#country").addEventListener("change", (e) => { state.country = e.target.value; render(); });
 $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; render(); });
 $("#suggest").addEventListener("click", (e) => {
