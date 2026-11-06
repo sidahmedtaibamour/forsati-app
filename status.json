@@ -1,15 +1,15 @@
 {
- "checked_at": "2026-11-06T13:12:50.105Z",
- "total": 187,
+ "checked_at": "2026-11-06T18:58:56.567Z",
+ "total": 217,
  "expired_this_run": 0,
- "added_this_run": 2,
+ "added_this_run": 30,
  "sources": [
   {
    "name": "مدونة التوظيف في الجزائر",
    "url": "https://www.jobs4dz.com/feed/",
    "ok": true,
    "fetched": 12,
-   "added": 0,
+   "added": 7,
    "error": null
   },
   {
@@ -25,7 +25,7 @@
    "url": "https://tawothifdz.com/feed/",
    "ok": true,
    "fetched": 10,
-   "added": 0,
+   "added": 3,
    "error": null
   },
   {
@@ -89,7 +89,7 @@
    "url": "https://weworkremotely.com/remote-jobs.rss",
    "ok": true,
    "fetched": 100,
-   "added": 0,
+   "added": 7,
    "error": null
   },
   {
@@ -97,7 +97,7 @@
    "url": "https://opportunitydesk.org/feed/",
    "ok": true,
    "fetched": 10,
-   "added": 0,
+   "added": 4,
    "error": null
   },
   {
@@ -113,7 +113,7 @@
    "url": "https://www.opportunitiesforafricans.com/feed/",
    "ok": true,
    "fetched": 10,
-   "added": 0,
+   "added": 7,
    "error": null
   },
   {
