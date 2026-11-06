@@ -1,8 +1,8 @@
 {
- "checked_at": "2026-11-06T08:08:14.351Z",
- "total": 185,
+ "checked_at": "2026-11-06T13:12:50.105Z",
+ "total": 187,
  "expired_this_run": 0,
- "added_this_run": 5,
+ "added_this_run": 2,
  "sources": [
   {
    "name": "مدونة التوظيف في الجزائر",
@@ -17,7 +17,7 @@
    "url": "https://sfnemploi.com/feed/",
    "ok": true,
    "fetched": 10,
-   "added": 0,
+   "added": 2,
    "error": null
   },
   {
@@ -225,7 +225,7 @@
    "url": "https://sonatrach.com/",
    "ok": true,
    "fetched": 41,
-   "added": 3,
+   "added": 0,
    "error": null
   },
   {
@@ -265,7 +265,7 @@
    "url": "https://www.mobilis.dz/",
    "ok": true,
    "fetched": 29,
-   "added": 2,
+   "added": 0,
    "error": null
   },
   {
