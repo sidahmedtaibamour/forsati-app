@@ -1,15 +1,15 @@
 {
- "checked_at": "2026-11-05T19:02:10.044Z",
- "total": 143,
+ "checked_at": "2026-11-06T01:17:00.663Z",
+ "total": 164,
  "expired_this_run": 0,
- "added_this_run": 35,
+ "added_this_run": 21,
  "sources": [
   {
    "name": "مدونة التوظيف في الجزائر",
    "url": "https://www.jobs4dz.com/feed/",
    "ok": true,
    "fetched": 12,
-   "added": 8,
+   "added": 0,
    "error": null
   },
   {
@@ -17,7 +17,7 @@
    "url": "https://sfnemploi.com/feed/",
    "ok": true,
    "fetched": 10,
-   "added": 3,
+   "added": 2,
    "error": null
   },
   {
@@ -25,7 +25,7 @@
    "url": "https://tawothifdz.com/feed/",
    "ok": true,
    "fetched": 10,
-   "added": 5,
+   "added": 1,
    "error": null
   },
   {
@@ -89,7 +89,7 @@
    "url": "https://weworkremotely.com/remote-jobs.rss",
    "ok": true,
    "fetched": 100,
-   "added": 10,
+   "added": 18,
    "error": null
   },
   {
@@ -97,7 +97,7 @@
    "url": "https://opportunitydesk.org/feed/",
    "ok": true,
    "fetched": 10,
-   "added": 6,
+   "added": 0,
    "error": null
   },
   {
@@ -113,7 +113,7 @@
    "url": "https://www.opportunitiesforafricans.com/feed/",
    "ok": true,
    "fetched": 10,
-   "added": 3,
+   "added": 0,
    "error": null
   },
   {
@@ -264,7 +264,7 @@
    "name": "موبيليس",
    "url": "https://www.mobilis.dz/",
    "ok": true,
-   "fetched": 30,
+   "fetched": 29,
    "added": 0,
    "error": null
   },
