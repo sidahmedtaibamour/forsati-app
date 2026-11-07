@@ -1,15 +1,15 @@
 {
- "checked_at": "2026-11-07T07:51:12.441Z",
- "total": 220,
+ "checked_at": "2026-11-07T12:57:10.090Z",
+ "total": 228,
  "expired_this_run": 0,
- "added_this_run": 0,
+ "added_this_run": 8,
  "sources": [
   {
    "name": "مدونة التوظيف في الجزائر",
    "url": "https://www.jobs4dz.com/feed/",
    "ok": true,
    "fetched": 12,
-   "added": 0,
+   "added": 8,
    "error": null
   },
   {
