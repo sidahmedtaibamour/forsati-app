@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07T07:05:04.307Z",
+ "updated_at": "2026-11-07T07:51:12.441Z",
  "count": 220,
  "items": [
   {
@@ -14,7 +14,8 @@
    "url": "https://opportunitydesk.org/2026/11/07/call-for-judges-join-the-od-impact-challenge-2026-global-judging-panel/",
    "published_at": "2026-11-07T00:19:14.000Z",
    "deadline": null,
-   "first_seen": "2026-11-07T01:05:51.460Z"
+   "first_seen": "2026-11-07T01:05:51.460Z",
+   "countries": []
   },
   {
    "id": "8e689daac8ad",
@@ -28,7 +29,8 @@
    "url": "https://sfnemploi.com/%d8%aa%d9%85%d9%88%d9%8a%d9%84-%d8%a7%d9%84%d8%a8%d8%ad%d8%ab-%d9%88%d8%a7%d9%84%d8%a7%d8%a8%d8%aa%d9%83%d8%a7%d8%b1-%d9%81%d9%8a-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%a5%d9%84%d8%b2%d8%a7/",
    "published_at": "2026-11-06T20:25:25.000Z",
    "deadline": "2027-01-31",
-   "first_seen": "2026-11-07T01:05:51.460Z"
+   "first_seen": "2026-11-07T01:05:51.460Z",
+   "countries": []
   },
   {
    "id": "9dd4b48efca2",
@@ -42,7 +44,10 @@
    "url": "https://weworkremotely.com/remote-jobs/opentrain-ai-full-stack-engineer",
    "published_at": "2026-11-06T20:13:18.000Z",
    "deadline": null,
-   "first_seen": "2026-11-07T01:05:51.460Z"
+   "first_seen": "2026-11-07T01:05:51.460Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "92f5187e1eb3",
@@ -56,7 +61,8 @@
    "url": "https://weworkremotely.com/remote-jobs/karat-software-engineer-interviewer",
    "published_at": "2026-11-06T18:27:52.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "b4cc2cee0e20",
@@ -70,7 +76,10 @@
    "url": "https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa/",
    "published_at": "2026-11-06T17:28:35.000Z",
    "deadline": "2026-12-18",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "073ad584e018",
@@ -84,7 +93,10 @@
    "url": "https://weworkremotely.com/remote-jobs/standard-metrics-implementation-manager",
    "published_at": "2026-11-06T17:00:47.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "59c90ece4c29",
@@ -98,7 +110,10 @@
    "url": "https://weworkremotely.com/remote-jobs/satori-mortgage-mortgage-loan-officer-live-transfers-and-online-leads",
    "published_at": "2026-11-06T17:00:45.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "009610a5f324",
@@ -112,7 +127,10 @@
    "url": "https://weworkremotely.com/remote-jobs/siemens-product-marketing-manager",
    "published_at": "2026-11-06T17:00:43.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "DE"
+   ]
   },
   {
    "id": "f9fc120311cd",
@@ -126,7 +144,10 @@
    "url": "https://weworkremotely.com/remote-jobs/mitratech-associate-product-marketing-manager-grc",
    "published_at": "2026-11-06T17:00:39.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "31f39dc9e865",
@@ -140,7 +161,10 @@
    "url": "https://weworkremotely.com/remote-jobs/pritchard-industries-proposal-writer",
    "published_at": "2026-11-06T17:00:36.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "cfeab1879240",
@@ -154,7 +178,8 @@
    "url": "https://weworkremotely.com/remote-jobs/elavate-ugc-coordinator",
    "published_at": "2026-11-06T17:00:28.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "71e4e6c06bda",
@@ -168,7 +193,10 @@
    "url": "https://www.opportunitiesforafricans.com/the-sir-cyril-taylor-young-african-leaders-fellowship-program-2027/",
    "published_at": "2026-11-06T16:53:16.000Z",
    "deadline": "2026-11-19",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "CH"
+   ]
   },
   {
    "id": "68a965e02783",
@@ -182,7 +210,8 @@
    "url": "https://tawothifdz.com/%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a7%d9%84%d9%85%d8%a4%d8%b3%d8%b3%d8%a9-%d8%a7%d9%84%d9%88%d8%b7%d9%86%d9%8a%d8%a9-%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%a2%d8%a8%d8%a7%d8%b1-ensp/",
    "published_at": "2026-11-06T16:12:17.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "5ee3f43cbb61",
@@ -196,7 +225,10 @@
    "url": "https://www.opportunitiesforafricans.com/the-hurford-youth-fellows-program-2027/",
    "published_at": "2026-11-06T16:08:13.000Z",
    "deadline": "2026-11-30",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "e1fe4b56ee80",
@@ -210,7 +242,8 @@
    "url": "https://www.opportunitiesforafricans.com/the-center-for-effective-global-action-cega-2027-2028-visiting-fellowship-for-african-researchers/",
    "published_at": "2026-11-06T15:28:53.000Z",
    "deadline": "2027-01-17",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "47374c50c7ef",
@@ -224,7 +257,8 @@
    "url": "https://tawothifdz.com/%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a3%d8%b7%d8%a8%d8%a7%d8%a1-%d8%b9%d8%a7%d9%85%d9%8a%d9%86-%d8%a8%d8%a7%d9%84%d9%85%d8%a4%d8%b3%d8%b3%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a%d8%a9-2026-32-%d9%85/",
    "published_at": "2026-11-06T15:25:32.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "fc0fe7be6c06",
@@ -238,7 +272,8 @@
    "url": "https://tawothifdz.com/%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a7%d8%aa-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b1%d8%a8%d9%8a%d8%a9-2026-%d8%a3%d9%83%d8%ab%d8%b1-%d9%85/",
    "published_at": "2026-11-06T15:11:49.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "1e3966a5bfa0",
@@ -252,7 +287,8 @@
    "url": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/",
    "published_at": "2026-11-06T15:08:57.000Z",
    "deadline": "2027-02-04",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "ce809ce158be",
@@ -266,7 +302,8 @@
    "url": "https://opportunitydesk.org/2026/11/06/asia-foundation-development-fellows-program-2027/",
    "published_at": "2026-11-06T14:50:23.000Z",
    "deadline": "2026-12-01",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "eba3416db127",
@@ -280,7 +317,8 @@
    "url": "https://sfnemploi.com/%d9%85%d8%b5%d9%86%d8%b9-%d8%a7%d9%84%d9%85%d9%8a%d8%a7%d9%87-%d8%a7%d9%84%d9%85%d8%b9%d8%af%d9%86%d9%8a%d8%a9-%d8%b4%d9%84%d8%a7%d9%84%d8%a9-%d9%8a%d8%b9%d9%84%d9%86-%d8%b9%d9%86-%d8%aa%d9%88%d8%b8/",
    "published_at": "2026-11-06T14:36:01.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "3e1131335e52",
@@ -294,7 +332,8 @@
    "url": "https://www.jobs4dz.com/%d8%a7%d8%b9%d9%84%d8%a7%d9%86-%d8%b9%d9%86-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a8%d9%85%d8%a4%d8%b3%d8%b3%d8%a9-%d8%a7%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1/",
    "published_at": "2026-11-06T14:33:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "0c4012edff1b",
@@ -308,7 +347,10 @@
    "url": "https://sfnemploi.com/%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d8%a9-%d8%aa%d8%b9%d9%84%d9%86-%d8%b9%d9%86-%d9%85%d9%86%d8%ad%d8%a9-%d8%aa%d9%83%d9%88%d9%8a%d9%86-%d8%a8%d8%a7%d9%84%d8%ae%d8%a7/",
    "published_at": "2026-11-06T14:27:54.000Z",
    "deadline": "2026-11-21",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "DE"
+   ]
   },
   {
    "id": "526b910db4fc",
@@ -322,7 +364,8 @@
    "url": "https://www.jobs4dz.com/%d8%ac%d8%af%d9%8a%d8%af-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%aa%d8%b1%d8%a8%d9%8a%d8%a9-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a7%d8%aa-%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
    "published_at": "2026-11-06T14:21:53.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "a0123528c91d",
@@ -336,7 +379,8 @@
    "url": "https://www.jobs4dz.com/%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a8%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d9%8a/",
    "published_at": "2026-11-06T14:15:29.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "b4062d6070f7",
@@ -350,7 +394,8 @@
    "url": "https://www.jobs4dz.com/%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%ac%d8%a7%d9%87%d8%af%d9%8a%d9%86-%d8%aa%d9%81%d8%aa%d8%ad-%d8%a8%d8%a7%d8%a8-%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%81%d9%8a-%d8%a7%d9%84/",
    "published_at": "2026-11-06T13:51:23.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "8d027cf973c6",
@@ -364,7 +409,8 @@
    "url": "https://www.jobs4dz.com/%d8%a7%d8%b9%d9%84%d8%a7%d9%86-%d8%b9%d9%86-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%84%d8%b1%d8%aa%d8%a8%d8%a9-%d8%b3%d8%a7%d8%a6%d9%82-%d9%85%d9%86-%d8%a7%d9%84%d8%af/",
    "published_at": "2026-11-06T13:44:17.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "01c75a9fca2a",
@@ -378,7 +424,8 @@
    "url": "https://www.jobs4dz.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%b9%d9%86-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a8%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%b6%d8%b1%d8%a7%d8%a6%d8%a8-9/",
    "published_at": "2026-11-06T13:35:44.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "bb30ac721040",
@@ -392,7 +439,8 @@
    "url": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/",
    "published_at": "2026-11-06T13:34:08.000Z",
    "deadline": "2026-11-23",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "bebf9fbd5b07",
@@ -406,7 +454,8 @@
    "url": "https://www.jobs4dz.com/%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%b9%d9%84%d9%89-%d8%a3%d8%b3%d8%a7%d8%b3-%d8%a7%d9%84%d8%b4%d9%87%d8%a7%d8%af%d8%a9-%d9%81%d9%8a-%d8%b1%d8%aa%d8%a8%d8%a9-%d9%85/",
    "published_at": "2026-11-06T13:24:56.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "29c083e86991",
@@ -420,7 +469,8 @@
    "url": "https://sfnemploi.com/%d9%88%d9%84%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%aa%d9%81%d8%aa%d8%ad-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%b9%d9%84%d9%89-%d8%a3%d8%b3/",
    "published_at": "2026-11-06T12:59:10.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T13:12:50.105Z"
+   "first_seen": "2026-11-06T13:12:50.105Z",
+   "countries": []
   },
   {
    "id": "f45541a77bae",
@@ -434,7 +484,8 @@
    "url": "https://sfnemploi.com/onefd-%d8%b1%d8%a7%d8%a8%d8%b7-%d8%a3%d8%b1%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%81%d9%82%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%af%d8%a7%d8%ba%d9%88%d8%ac%d9%8a%d8%a9-%d9%88%d8%a7%d9%84-2/",
    "published_at": "2026-11-06T09:15:51.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T13:12:50.105Z"
+   "first_seen": "2026-11-06T13:12:50.105Z",
+   "countries": []
   },
   {
    "id": "206e8b6a7601",
@@ -448,7 +499,8 @@
    "url": "https://sonatrach.com/wp-content/uploads/2025/08/SH-NEWS-FR-N%C2%B048.pdf",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-06T08:08:14.351Z"
+   "first_seen": "2026-11-06T08:08:14.351Z",
+   "countries": []
   },
   {
    "id": "484329ad6f23",
@@ -462,7 +514,8 @@
    "url": "https://sonatrach.com/wp-content/uploads/2025/06/SH-NEWS-FR-N%C2%B047-1.pdf",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-06T08:08:14.351Z"
+   "first_seen": "2026-11-06T08:08:14.351Z",
+   "countries": []
   },
   {
    "id": "664afeb43770",
@@ -476,7 +529,8 @@
    "url": "https://sonatrach.com/wp-content/uploads/2025/06/SONATRACH-News-46-FR.pdf",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-06T08:08:14.351Z"
+   "first_seen": "2026-11-06T08:08:14.351Z",
+   "countries": []
   },
   {
    "id": "cd56752d95a6",
@@ -490,7 +544,8 @@
    "url": "https://mobilis.dz/catalogue_interconnexion",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-06T08:08:14.351Z"
+   "first_seen": "2026-11-06T08:08:14.351Z",
+   "countries": []
   },
   {
    "id": "34723e4b431b",
@@ -504,7 +559,8 @@
    "url": "https://mobilis.dz/politique_protection_donnees",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-06T08:08:14.351Z"
+   "first_seen": "2026-11-06T08:08:14.351Z",
+   "countries": []
   },
   {
    "id": "be63953da82e",
@@ -518,7 +574,10 @@
    "url": "https://weworkremotely.com/remote-jobs/bask-health-client-success-manager",
    "published_at": "2026-11-06T07:13:10.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "343782db2b25",
@@ -532,7 +591,10 @@
    "url": "https://weworkremotely.com/remote-jobs/chainguard-senior-abm-manager",
    "published_at": "2026-11-06T07:13:09.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "15c9dae80d9a",
@@ -546,7 +608,8 @@
    "url": "https://weworkremotely.com/remote-jobs/gruns-people-operations-manager",
    "published_at": "2026-11-06T07:13:07.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": []
   },
   {
    "id": "f9ed8a8e4014",
@@ -560,7 +623,10 @@
    "url": "https://weworkremotely.com/remote-jobs/microsoft-unified-foundational-offers-strategy-and-operations-lead",
    "published_at": "2026-11-06T07:13:06.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "a929e0c9bab3",
@@ -574,7 +640,10 @@
    "url": "https://weworkremotely.com/remote-jobs/datavant-senior-success-lead-public-sector",
    "published_at": "2026-11-06T07:13:04.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "04f8eeb5a4aa",
@@ -588,7 +657,10 @@
    "url": "https://weworkremotely.com/remote-jobs/guesty-shield-program-lead",
    "published_at": "2026-11-06T07:13:02.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "CA"
+   ]
   },
   {
    "id": "a7f16e02cee9",
@@ -602,7 +674,10 @@
    "url": "https://weworkremotely.com/remote-jobs/collective-residential-offshore-virtual-executive-assistant-to-the-ceo",
    "published_at": "2026-11-06T07:13:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "MX"
+   ]
   },
   {
    "id": "29d731d77034",
@@ -616,7 +691,10 @@
    "url": "https://weworkremotely.com/remote-jobs/the-american-institute-of-architects-director-enterprise-platform-integration",
    "published_at": "2026-11-06T07:12:58.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "70168df51426",
@@ -630,7 +708,10 @@
    "url": "https://weworkremotely.com/remote-jobs/lighthouse-managed-review-recruiting-coordinator",
    "published_at": "2026-11-06T07:12:56.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "d90422763ae9",
@@ -644,7 +725,10 @@
    "url": "https://weworkremotely.com/remote-jobs/lighthouse-review-program-manager",
    "published_at": "2026-11-06T07:12:55.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "b72209bc1c4e",
@@ -658,7 +742,8 @@
    "url": "https://www.opportunitiesforafricans.com/cfa-institute-access-scholarship-programme-2026-2027/",
    "published_at": "2026-11-06T05:32:00.000Z",
    "deadline": "2026-11-23",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "d8d74f70ed21",
@@ -672,7 +757,10 @@
    "url": "https://www.opportunitiesforafricans.com/ned-reagan-fascell-democracy-fellows-program-2027-2028/",
    "published_at": "2026-11-06T05:18:00.000Z",
    "deadline": "2027-01-05",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "b264f0194399",
@@ -686,7 +774,8 @@
    "url": "https://www.opportunitiesforafricans.com/the-microsoft-ai-economy-institute-cohort-4/",
    "published_at": "2026-11-06T05:09:00.000Z",
    "deadline": "2026-11-30",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": []
   },
   {
    "id": "e13ab263496c",
@@ -700,7 +789,10 @@
    "url": "https://www.opportunitiesforafricans.com/the-humboldt-residency-programme-2027/",
    "published_at": "2026-11-06T04:26:00.000Z",
    "deadline": "2026-12-14",
-   "first_seen": "2026-11-06T18:58:56.567Z"
+   "first_seen": "2026-11-06T18:58:56.567Z",
+   "countries": [
+    "DE"
+   ]
   },
   {
    "id": "404a28799bc1",
@@ -714,7 +806,8 @@
    "url": "https://weworkremotely.com/remote-jobs/testlio-trabajo-freelance-en-peru-prueba-de-pagos-con-yape",
    "published_at": "2026-11-06T04:12:22.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": []
   },
   {
    "id": "e4fdeeacd7ac",
@@ -728,7 +821,8 @@
    "url": "https://weworkremotely.com/remote-jobs/mindrift-freelance-mechanical-cfd-engineer-ai-trainer",
    "published_at": "2026-11-06T04:12:21.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": []
   },
   {
    "id": "2cd8339e411c",
@@ -742,7 +836,10 @@
    "url": "https://weworkremotely.com/remote-jobs/uprospect-marketing-lead-2-5k-3k-usd-base-monthly-exciting-multicultural-e-learning-company",
    "published_at": "2026-11-06T04:12:20.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "CO"
+   ]
   },
   {
    "id": "5ba00dc71a8a",
@@ -756,7 +853,10 @@
    "url": "https://weworkremotely.com/remote-jobs/drop-zero-digital-operations-associate-hiring-or-client-delivery",
    "published_at": "2026-11-06T04:12:18.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "AR"
+   ]
   },
   {
    "id": "c0467a24984e",
@@ -770,7 +870,10 @@
    "url": "https://weworkremotely.com/remote-jobs/vital-virtuals-global-hr-solutions-llc-medical-virtual-assistant",
    "published_at": "2026-11-06T04:12:16.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": [
+    "AR"
+   ]
   },
   {
    "id": "1c525439877c",
@@ -784,7 +887,8 @@
    "url": "https://weworkremotely.com/remote-jobs/ace-stainless-supply-social-media-seo-manager-2",
    "published_at": "2026-11-06T03:37:48.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T07:23:35.037Z"
+   "first_seen": "2026-11-06T07:23:35.037Z",
+   "countries": []
   },
   {
    "id": "f5d1ae0d7973",
@@ -798,7 +902,8 @@
    "url": "https://weworkremotely.com/remote-jobs/toptal-agile-program-manager",
    "published_at": "2026-11-05T22:36:07.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "3bfcd6ed938e",
@@ -812,7 +917,8 @@
    "url": "https://weworkremotely.com/remote-jobs/breakthrough-design-group-senior-creative-web-designer",
    "published_at": "2026-11-05T22:31:50.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "79c63c3e82cf",
@@ -826,7 +932,8 @@
    "url": "https://sfnemploi.com/%d8%ac%d8%a7%d9%85%d8%b9%d8%a9-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-3-%d9%86%d8%b4%d8%b1-%d8%a7%d9%84%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%86%d9%87%d8%a7%d8%a6%d9%8a%d8%a9-%d9%84%d9%84/",
    "published_at": "2026-11-05T22:21:37.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "e7e5c6e4c07e",
@@ -840,7 +947,8 @@
    "url": "https://weworkremotely.com/remote-jobs/paid-ads-academy-paid-ads-specialist",
    "published_at": "2026-11-05T21:33:36.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "0546650de6d7",
@@ -854,7 +962,8 @@
    "url": "https://weworkremotely.com/remote-jobs/spreetail-director-of-procurement",
    "published_at": "2026-11-05T21:25:35.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "3cb4c0938830",
@@ -868,7 +977,8 @@
    "url": "https://weworkremotely.com/remote-jobs/spreetail-senior-director-retail-fp-a",
    "published_at": "2026-11-05T21:25:35.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "ab551428a944",
@@ -882,7 +992,8 @@
    "url": "https://weworkremotely.com/remote-jobs/spreetail-principal-financial-analyst-merchandising",
    "published_at": "2026-11-05T21:25:35.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "cd79055bdde0",
@@ -896,7 +1007,10 @@
    "url": "https://weworkremotely.com/remote-jobs/zscaler-specialist-account-executive-secops",
    "published_at": "2026-11-05T21:25:35.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "0e9f1acb3868",
@@ -910,7 +1024,10 @@
    "url": "https://weworkremotely.com/remote-jobs/zscaler-senior-sales-engineer-majors-georgia",
    "published_at": "2026-11-05T21:25:35.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "59adbc714575",
@@ -924,7 +1041,8 @@
    "url": "https://weworkremotely.com/remote-jobs/alium-finance-marketing-lead-defi",
    "published_at": "2026-11-05T21:25:07.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "233fa7595090",
@@ -938,7 +1056,10 @@
    "url": "https://weworkremotely.com/remote-jobs/london-recruitment-and-social-media-specialist",
    "published_at": "2026-11-05T21:25:07.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": [
+    "GB"
+   ]
   },
   {
    "id": "c467ed204e25",
@@ -952,7 +1073,8 @@
    "url": "https://weworkremotely.com/remote-jobs/convertibles-google-youtube-ads-specialist-ecommerce-remote-full-time-asia",
    "published_at": "2026-11-05T21:25:07.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "4a43a6083e17",
@@ -966,7 +1088,8 @@
    "url": "https://weworkremotely.com/remote-jobs/jobgether-google-ads-media-buyer",
    "published_at": "2026-11-05T21:25:07.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "bb2cbb7859d1",
@@ -980,7 +1103,8 @@
    "url": "https://weworkremotely.com/remote-jobs/wevote-head-of-editorial-content-volunteer",
    "published_at": "2026-11-05T21:24:38.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "d00ae9654927",
@@ -994,7 +1118,10 @@
    "url": "https://weworkremotely.com/remote-jobs/golden-1-credit-union-web-applications-programmer-ii-sitecore-development-required",
    "published_at": "2026-11-05T21:24:38.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "26f928cb2aa8",
@@ -1008,7 +1135,8 @@
    "url": "https://weworkremotely.com/remote-jobs/wevote-financial-controller",
    "published_at": "2026-11-05T21:24:38.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "f3ef8acda9b5",
@@ -1022,7 +1150,8 @@
    "url": "https://weworkremotely.com/remote-jobs/horizon3-staff-technical-support-engineer-web-app",
    "published_at": "2026-11-05T21:24:38.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "15d8b94a4d59",
@@ -1036,7 +1165,8 @@
    "url": "https://weworkremotely.com/remote-jobs/epam-systems-senior-web-application-security-engineer",
    "published_at": "2026-11-05T21:24:38.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "ed121e62a147",
@@ -1050,7 +1180,10 @@
    "url": "https://tawothifdz.com/%d8%b3%d9%81%d8%a7%d8%b1%d8%a9-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%a8%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%aa%d8%b9%d9%84%d9%86-%d8%b9%d9%86-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%ac%d8%af/",
    "published_at": "2026-11-05T21:18:05.000Z",
    "deadline": "2026-11-17",
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "7a8b47b0513a",
@@ -1064,7 +1197,10 @@
    "url": "https://weworkremotely.com/remote-jobs/zanda-health-paid-media-coordinator",
    "published_at": "2026-11-05T19:23:51.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": [
+    "AU"
+   ]
   },
   {
    "id": "a9cb64fc08ca",
@@ -1078,7 +1214,8 @@
    "url": "https://sfnemploi.com/%d8%b1%d8%a7%d8%a8%d8%b7-%d8%a3%d8%b1%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%81%d9%82%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%af%d8%a7%d8%ba%d9%88%d8%ac%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%86-2/",
    "published_at": "2026-11-05T19:11:35.000Z",
    "deadline": null,
-   "first_seen": "2026-11-06T01:17:00.663Z"
+   "first_seen": "2026-11-06T01:17:00.663Z",
+   "countries": []
   },
   {
    "id": "5195146a26a5",
@@ -1092,7 +1229,8 @@
    "url": "https://sfnemploi.com/%d8%b1%d8%b2%d9%86%d8%a7%d9%85%d8%a9-%d8%a7%d9%84%d8%b9%d8%b7%d9%84-%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d9%8a%d8%a9-2026-2027-%d9%81%d9%8a-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%aa%d9%88/",
    "published_at": "2026-11-05T18:56:25.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "c6fc3b30bea5",
@@ -1106,7 +1244,10 @@
    "url": "https://weworkremotely.com/remote-jobs/veeva-systems-it-consultant-solutions-architect-cloud-crm-remote",
    "published_at": "2026-11-05T18:30:45.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": [
+    "HU"
+   ]
   },
   {
    "id": "1d05e734575d",
@@ -1120,7 +1261,10 @@
    "url": "https://www.opportunitiesforafricans.com/the-mcw-globals-young-leaders-fellowship-2027/",
    "published_at": "2026-11-05T17:26:17.000Z",
    "deadline": "2026-12-03",
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "8b21ccdc9060",
@@ -1134,7 +1278,10 @@
    "url": "https://weworkremotely.com/remote-jobs/vertican-senior-applied-ai-engineer-document-intelligence",
    "published_at": "2026-11-05T17:12:27.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "22a561813f29",
@@ -1148,7 +1295,8 @@
    "url": "https://weworkremotely.com/remote-jobs/toptal-cryptography-specialist-for-ai-lab",
    "published_at": "2026-11-05T17:09:07.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "cb86d35b80aa",
@@ -1162,7 +1310,8 @@
    "url": "https://www.opportunitiesforafricans.com/the-microsoft-imagine-cup-student-startup-competition-2027/",
    "published_at": "2026-11-05T17:07:03.000Z",
    "deadline": "2027-02-28",
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "e43727d6c6b3",
@@ -1176,7 +1325,8 @@
    "url": "https://www.opportunitiesforafricans.com/the-equality-fund-journalism-fellowship-2027-for-journalists-from-the-global-south/",
    "published_at": "2026-11-05T16:43:31.000Z",
    "deadline": "2026-11-08",
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "e07f7c892b3d",
@@ -1190,7 +1340,8 @@
    "url": "https://opportunitydesk.org/2026/11/05/how-to-ace-your-scholarship-interview-12-tips-to-help-you-stand-out/",
    "published_at": "2026-11-05T16:02:24.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "fbd31d9384a8",
@@ -1204,7 +1355,8 @@
    "url": "https://tawothifdz.com/%d8%b9%d8%b1%d9%88%d8%b6-%d8%b9%d9%85%d9%84-%d9%81%d9%8a-%d8%a8%d8%a7%d8%aa%d9%86%d8%a9-2026-300-%d9%85%d9%86%d8%b5%d8%a8-%d9%84%d8%af%d9%89-sarl-tirsam-batna/",
    "published_at": "2026-11-05T15:36:52.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "acccc15b4d0a",
@@ -1218,7 +1370,8 @@
    "url": "https://tawothifdz.com/%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%81%d9%8a-%d8%a7%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-2026-%d9%85%d9%86%d8%a7%d8%b5%d8%a8-%d9%84%d8%ad%d8%a7%d9%85%d9%84/",
    "published_at": "2026-11-05T15:05:34.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "b4a3c805b8ad",
@@ -1232,7 +1385,8 @@
    "url": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027/",
    "published_at": "2026-11-05T14:51:21.000Z",
    "deadline": "2026-11-30",
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "c9746c99daad",
@@ -1246,7 +1400,8 @@
    "url": "https://tawothifdz.com/%d8%a7%d9%84%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b4%d9%81%d8%a7%d8%a6%d9%8a-%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d9%8a-%d8%a8%d8%aa%d9%8a%d8%b2%d9%8a-%d9%88%d8%b2%d9%88-%d9%8a/",
    "published_at": "2026-11-05T14:50:20.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "3ea0a0f0d1ea",
@@ -1260,7 +1415,8 @@
    "url": "https://tawothifdz.com/%d8%ac%d8%a7%d9%85%d8%b9%d8%a9-%d8%a7%d9%84%d8%b4%d9%87%d9%8a%d8%af-%d8%ad%d9%85%d9%87-%d9%84%d8%ae%d8%b6%d8%b1-%d8%a8%d8%a7%d9%84%d9%88%d8%a7%d8%af%d9%8a-%d8%aa%d8%b9%d9%84%d9%86-%d8%b9%d9%86-%d8%aa/",
    "published_at": "2026-11-05T14:40:39.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "e10babb77595",
@@ -1274,7 +1430,10 @@
    "url": "https://opportunitydesk.org/2026/11/05/21-hot-job-opportunities-currently-open-november-5-2026/",
    "published_at": "2026-11-05T14:38:36.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": [
+    "JO"
+   ]
   },
   {
    "id": "5081617265a8",
@@ -1288,7 +1447,8 @@
    "url": "https://opportunitydesk.org/2026/11/05/young-security-conference-fellowship-2026/",
    "published_at": "2026-11-05T14:29:01.000Z",
    "deadline": "2026-11-11",
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "37c4db59cebc",
@@ -1302,7 +1462,8 @@
    "url": "https://tawothifdz.com/%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%81%d9%8a-%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%b5%d8%ad%d8%a9-%d8%a8%d8%a7%d9%84%d8%ac%d9%84%d9%81%d8%a9-2026-%d9%81%d8%aa%d8%ad-10-%d9%85%d9%86%d8%a7%d8%b5/",
    "published_at": "2026-11-05T14:28:09.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "0c3faf2e53ad",
@@ -1316,7 +1477,8 @@
    "url": "https://www.jobs4dz.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%b9%d9%86-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a7%d9%84%d8%a3%d8%b3%d9%84%d8%a7%d9%83-%d8%a7%d9%84%d9%85%d8%b4%d8%aa%d8%b1%d9%83/",
    "published_at": "2026-11-05T14:25:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "6e1cad3b60ac",
@@ -1330,7 +1492,8 @@
    "url": "https://www.jobs4dz.com/%d9%81%d8%aa%d8%ad-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a8%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9-%d9%84%d8%aa%d9%84%d8%a8%d9%8a/",
    "published_at": "2026-11-05T14:12:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "c02207a436a9",
@@ -1344,7 +1507,8 @@
    "url": "https://opportunitydesk.org/2026/11/05/15-global-scholarship-opportunities-currently-open-november-5-2026/",
    "published_at": "2026-11-05T14:09:17.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "4b0014818f8a",
@@ -1358,7 +1522,8 @@
    "url": "https://www.jobs4dz.com/%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%85%d9%87%d9%86%d8%af%d8%b3%d9%8a-%d8%af%d9%88%d9%84%d8%a9-%d9%84%d8%b3%d9%86%d8%a9-2026-%d8%a8%d9%85%d8%af%d9%8a%d8%b1%d9%8a/",
    "published_at": "2026-11-05T13:59:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "4db27927f2aa",
@@ -1372,7 +1537,8 @@
    "url": "https://www.jobs4dz.com/%d8%a7%d9%84%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9-%d9%84%d9%84%d8%ba%d8%a7%d8%a8%d8%a7%d8%aa-%d8%aa%d8%b9%d9%84%d9%86-%d8%b9%d9%86-%d9%81%d8%aa%d8%ad-%d9%85%d8%b3-3/",
    "published_at": "2026-11-05T13:53:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "073b7bd11c26",
@@ -1386,7 +1552,8 @@
    "url": "https://opportunitydesk.org/2026/11/05/ix-wai-early-career-development-grant-2027/",
    "published_at": "2026-11-05T13:48:36.000Z",
    "deadline": "2027-01-04",
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "10f9e54e6720",
@@ -1400,7 +1567,8 @@
    "url": "https://www.jobs4dz.com/%d8%a7%d8%b9%d9%84%d8%a7%d9%86-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a8%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%b7-%d8%a7%d9%84%d8%ac%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1%d9%8a%d8%a9-7/",
    "published_at": "2026-11-05T13:47:53.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "a1042b93847f",
@@ -1414,7 +1582,8 @@
    "url": "https://www.jobs4dz.com/%d9%81%d8%aa%d8%ad-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%ac%d8%af%d9%8a%d8%af-%d8%a8%d9%85%d8%a4%d8%b3%d8%b3%d8%a9-%d8%a7%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1/",
    "published_at": "2026-11-05T13:40:49.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "4d4834140813",
@@ -1428,7 +1597,8 @@
    "url": "https://weworkremotely.com/remote-jobs/kiavi-senior-applied-scientist-property-analytics",
    "published_at": "2026-11-05T13:22:36.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "82f67bae4cdb",
@@ -1442,7 +1612,10 @@
    "url": "https://weworkremotely.com/remote-jobs/exl-quality-analyst-clinical-validation-auditor-cva-healthcare",
    "published_at": "2026-11-05T13:22:35.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "d02c9d164570",
@@ -1456,7 +1629,10 @@
    "url": "https://weworkremotely.com/remote-jobs/drfirst-com-inc-senior-software-engineer",
    "published_at": "2026-11-05T13:22:33.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "003eef10e314",
@@ -1470,7 +1646,8 @@
    "url": "https://weworkremotely.com/remote-jobs/mozaiq-founding-account-executive",
    "published_at": "2026-11-05T13:22:31.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "119c225f9458",
@@ -1484,7 +1661,10 @@
    "url": "https://weworkremotely.com/remote-jobs/national-claims-assistance-inc-customer-service-claims-representative",
    "published_at": "2026-11-05T13:22:29.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "54bf637595df",
@@ -1498,7 +1678,10 @@
    "url": "https://weworkremotely.com/remote-jobs/billiontoone-client-services-associate-i-oncology-east-coast",
    "published_at": "2026-11-05T13:22:27.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "d7721f576f39",
@@ -1512,7 +1695,8 @@
    "url": "https://sfnemploi.com/%d8%a5%d8%b7%d9%84%d8%a7%d9%82-%d9%85%d9%86%d8%b5%d8%a9-%d8%b1%d9%82%d9%85%d9%8a%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%84%d9%85%d8%aa%d8%a7%d8%a8%d8%b9%d8%a9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7/",
    "published_at": "2026-11-05T13:13:48.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "77842bc76f6d",
@@ -1526,7 +1710,8 @@
    "url": "https://www.jobs4dz.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%b9%d9%86-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a8%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a7%d8%af%d8%a7%d8%b1%d8%a9/",
    "published_at": "2026-11-05T13:02:49.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "37f4fd2f41ad",
@@ -1540,7 +1725,10 @@
    "url": "https://www.jobs4dz.com/%d9%81%d8%aa%d8%ad-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%b1%d9%8a-%d8%b9%d9%86%d8%a7%d8%a8%d8%a9-%d9%84%d8%b1%d8%aa/",
    "published_at": "2026-11-05T12:50:42.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": [
+    "IN"
+   ]
   },
   {
    "id": "f2393fb206d2",
@@ -1554,7 +1742,8 @@
    "url": "https://weworkremotely.com/remote-jobs/secure-privacy-senior-full-stack-web-developer-net-c-mongodb-angular-redux-ai-first-with-gdpr-experience",
    "published_at": "2026-11-05T12:39:27.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "17b7076d3b26",
@@ -1568,7 +1757,8 @@
    "url": "https://www.mesrs.dz/2026/10/%d8%a5%d9%81%d8%aa%d8%aa%d8%a7%d8%ad-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d8%a9-%d8%a7%d9%84%d8%ad%d8%a7%d8%af%d9%8a%d8%a9-%d9%88-%d8%a7%d9%84%d8%ab%d9%84%d8%a7%d8%ab%d9%8a%d9%86-%d9%84%d9%84%d8%ac%d9%86/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "79026dcf036b",
@@ -1582,7 +1772,8 @@
    "url": "https://www.mesrs.dz/2026/10/projet-de-la-grille-devaluation-pour-la-promotion-au-grade-de-professeur-2028-ar/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "d9ed19140472",
@@ -1596,7 +1787,8 @@
    "url": "https://www.mesrs.dz/2026/10/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%b9%d9%84%d9%89-%d8%a3%d8%b3%d8%a7%d8%b3-%d8%a7%d9%84%d8%b4%d9%87%d8%a7%d8%af%d8%a7/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "c3b9f0a998bb",
@@ -1610,7 +1802,8 @@
    "url": "https://www.mesrs.dz/2026/08/resultats-de-la-54e-session-de-la-commission-universitaire-nationale-cun-recours-ar/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "ac4d72733428",
@@ -1624,7 +1817,8 @@
    "url": "https://www.mesrs.dz/2026/07/resultats-9eme-session-habilitation-universitaire-apres-recours-arabe/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "92751bd3bd8f",
@@ -1638,7 +1832,8 @@
    "url": "https://www.mesrs.dz/2026/07/resultat_habilitation_session_09_ar/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "7731ca634e5c",
@@ -1652,7 +1847,8 @@
    "url": "https://www.mesrs.dz/2026/06/liste-nominative-des-candidats-admis-definitivement-a-concourir-au-titre-du-concours-sur-titres-et-travaux-en-vue-de-lacces-au-grade-de-professeur-hospitalo-universitaire/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "8f9a8be50215",
@@ -1666,7 +1862,8 @@
    "url": "https://www.mesrs.dz/2026/06/liste-nominative-des-candidats-admis-definitivement-a-concourir-au-titre-du-concours-sur-epreuves-en-vue-de-lacces-au-grade-de-maitre-de-conferences-hospitalo-universitaire-classe-a/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "f1930275dab9",
@@ -1680,7 +1877,8 @@
    "url": "https://www.mesrs.dz/2026/06/resultats-6-session-ingenieurs-de-recherche-apres-recours/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "50e1af26886d",
@@ -1694,7 +1892,8 @@
    "url": "https://www.mesrs.dz/2026/06/liste-nominative-des-candidats-admis-a-concourir-au-titre-du-concours-sur-epreuves-en-vue-de-lacces-au-grade-de-maitre-de-conferences-hospitalo-universitaire-classe-a-arabe/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "b98c28748695",
@@ -1708,7 +1907,8 @@
    "url": "https://www.mesrs.dz/2026/06/liste-nominative-des-candidats-admis-a-concourir-au-titre-du-concours-sur-titres-et-travaux-en-vue-de-lacces-au-grade-de-professeur-hospitalo-universitaire-ar/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "34fe9f94f70f",
@@ -1722,7 +1922,8 @@
    "url": "https://sonatrach.com/en/organization-of-a-workshop-dedicated-to-climate-finance-and-carbon-markets-towards-a-national-strategy-for-an-integrated-and-sustainable-governance/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "31518ae06379",
@@ -1736,7 +1937,8 @@
    "url": "https://airalgerie.dz/mentions-legales/politiques-de-cookies/",
    "published_at": null,
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "e1b44ea0eaac",
@@ -1750,7 +1952,8 @@
    "url": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027/",
    "published_at": "2026-11-05T12:23:09.000Z",
    "deadline": "2027-01-22",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "3d049732180f",
@@ -1764,7 +1967,8 @@
    "url": "https://sfnemploi.com/%d8%a7%d9%84%d9%85%d8%a4%d8%b3%d8%b3%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9-%d9%84%d9%84%d9%85%d9%8a%d8%b2%d8%a7%d9%86%d9%8a%d8%a9-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a/",
    "published_at": "2026-11-05T09:59:14.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T19:02:10.044Z"
+   "first_seen": "2026-11-05T19:02:10.044Z",
+   "countries": []
   },
   {
    "id": "b2f8e5cbe7ec",
@@ -1778,7 +1982,8 @@
    "url": "https://opportunitydesk.org/2026/11/05/ilo-writing-competitions-on-safe-labour-migration-in-east-and-horn-of-africa-2027/",
    "published_at": "2026-11-05T09:55:31.000Z",
    "deadline": "2026-11-25",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "e66db89ec7db",
@@ -1792,7 +1997,8 @@
    "url": "https://sfnemploi.com/onefd-%d8%a7%d9%84%d8%aa%d8%b3%d8%ac%d9%8a%d9%84-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%8a%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d9%88%d8%b7%d9%86%d9%8a-%d9%84%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%b9%d9%86/",
    "published_at": "2026-11-05T09:46:47.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "a918f0df3df9",
@@ -1806,7 +2012,8 @@
    "url": "https://opportunitydesk.org/2026/11/05/cannes-lions-scholarship-2027/",
    "published_at": "2026-11-05T09:35:18.000Z",
    "deadline": "2026-12-04",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "683403fd61e4",
@@ -1820,7 +2027,8 @@
    "url": "https://sfnemploi.com/%d9%88%d9%83%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d8%aa%d8%b4%d8%ba%d9%8a%d9%84-%d8%a8%d8%a8%d8%a7%d8%aa%d9%86%d8%a9-%d8%b9%d8%b1%d9%88%d8%b6-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a8%d8%b4%d8%b1%d9%83%d8%a9/",
    "published_at": "2026-11-05T07:39:56.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "95ccef0fd210",
@@ -1834,7 +2042,8 @@
    "url": "https://weworkremotely.com/remote-jobs/welltech-product-growth-manager-acquisition-funnels",
    "published_at": "2026-11-05T06:51:49.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "981da873e356",
@@ -1848,7 +2057,8 @@
    "url": "https://weworkremotely.com/remote-jobs/talentxd-director-of-affiliates",
    "published_at": "2026-11-05T06:51:49.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "364f5b39d66f",
@@ -1862,7 +2072,8 @@
    "url": "https://weworkremotely.com/remote-jobs/capslock-creative-design-team-lead-ai-performance-marketing",
    "published_at": "2026-11-05T06:51:49.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "23ce4ecba2c8",
@@ -1876,7 +2087,8 @@
    "url": "https://weworkremotely.com/remote-jobs/teamswell-marketing-assistant",
    "published_at": "2026-11-05T06:51:49.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "8d1333000e7d",
@@ -1890,7 +2102,8 @@
    "url": "https://weworkremotely.com/remote-jobs/omnidian-senior-salesforce-developer-field-service",
    "published_at": "2026-11-05T06:51:29.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "b16ed22c83b5",
@@ -1904,7 +2117,10 @@
    "url": "https://weworkremotely.com/remote-jobs/highlevel-software-development-engineer-iii-fullstack-workflows",
    "published_at": "2026-11-05T06:51:29.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "IN"
+   ]
   },
   {
    "id": "a0d2a7c9183a",
@@ -1918,7 +2134,10 @@
    "url": "https://weworkremotely.com/remote-jobs/highlevel-software-development-engineer-ii-crm",
    "published_at": "2026-11-05T06:51:29.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "IN"
+   ]
   },
   {
    "id": "440d976c5669",
@@ -1932,7 +2151,10 @@
    "url": "https://weworkremotely.com/remote-jobs/appsierra-group-zoho-crm-developer",
    "published_at": "2026-11-05T06:51:29.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "IN"
+   ]
   },
   {
    "id": "4f4ad87ccbf5",
@@ -1946,7 +2168,10 @@
    "url": "https://weworkremotely.com/remote-jobs/seekerh-consultor-dynamics-365-crm-remoto",
    "published_at": "2026-11-05T06:51:01.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "BR"
+   ]
   },
   {
    "id": "66d8ed43f3b1",
@@ -1960,7 +2185,10 @@
    "url": "https://weworkremotely.com/remote-jobs/close-senior-backend-engineer-backend-platform-usa-only-100-remote",
    "published_at": "2026-11-05T06:51:01.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "d800837094be",
@@ -1974,7 +2202,8 @@
    "url": "https://weworkremotely.com/remote-jobs/lift-enrichment-remote-sales-representative-for-education-company",
    "published_at": "2026-11-05T06:49:19.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "ece2cb5ec382",
@@ -1988,7 +2217,8 @@
    "url": "https://weworkremotely.com/remote-jobs/toptal-ml-inference-engineer-terminal-bench-task-designer",
    "published_at": "2026-11-04T21:41:56.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "ff0cb206e54f",
@@ -2002,7 +2232,8 @@
    "url": "https://weworkremotely.com/remote-jobs/toptal-operations-expert-with-python-for-ai-supply-chain-task-design",
    "published_at": "2026-11-04T21:40:36.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "badbb938e7e5",
@@ -2016,7 +2247,8 @@
    "url": "https://tawothifdz.com/%d8%b9%d8%b1%d8%b6-%d8%b9%d9%85%d9%84-%d9%81%d9%8a-%d8%a7%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-2026-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%85%d8%b3%d8%aa%d8%b4/",
    "published_at": "2026-11-04T21:27:55.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "d1b9f99e0034",
@@ -2030,7 +2262,8 @@
    "url": "https://tawothifdz.com/%d8%b9%d8%b1%d8%b6-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%ac%d8%af%d9%8a%d8%af-%d9%84%d8%ad%d8%a7%d9%85%d9%84%d9%8a-%d8%b4%d9%87%d8%a7%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d9%84%d9%8a%d8%b3%d8%a7%d9%86%d8%b3/",
    "published_at": "2026-11-04T21:19:36.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "a1642acceba4",
@@ -2044,7 +2277,12 @@
    "url": "https://weworkremotely.com/remote-jobs/super-speciosa-supply-chain-operations-manager-latam",
    "published_at": "2026-11-04T21:16:31.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "MX",
+    "AR",
+    "CO"
+   ]
   },
   {
    "id": "781557a107c5",
@@ -2058,7 +2296,8 @@
    "url": "https://sfnemploi.com/%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-183-%d9%85%d8%b3%d8%a7%d8%b9%d8%af-%d8%aa%d9%85%d8%b1%d9%8a%d8%b6-%d9%85%d9%86-%d8%ae%d8%b1%d9%8a%d8%ac%d9%8a-%d8%a7%d9%84%d9%85/",
    "published_at": "2026-11-04T20:44:30.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "9c476b0351da",
@@ -2072,7 +2311,10 @@
    "url": "https://www.opportunitiesforafricans.com/the-ceps-heinrich-boll-stiftung-climate-leadership-programme-2027/",
    "published_at": "2026-11-04T20:02:41.000Z",
    "deadline": "2026-11-10",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "BE"
+   ]
   },
   {
    "id": "23e30043f6f2",
@@ -2086,7 +2328,8 @@
    "url": "https://www.opportunitiesforafricans.com/the-cannes-lions-2027-scholarships/",
    "published_at": "2026-11-04T19:40:50.000Z",
    "deadline": "2026-12-04",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "986aec267ec9",
@@ -2100,7 +2343,8 @@
    "url": "https://www.opportunitiesforafricans.com/the-firstrand-oxford-blavatnik-school-of-government-scholarship-2027-2028-for-a-master-of-public-policy/",
    "published_at": "2026-11-04T19:21:46.000Z",
    "deadline": "2027-02-25",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "e89a2daa7174",
@@ -2114,7 +2358,8 @@
    "url": "https://www.opportunitiesforafricans.com/the-centre-for-research-in-the-arts-humanities-and-social-sciences-crassh-at-the-university-of-cambridge-visiting-fellowships-2027-2028/",
    "published_at": "2026-11-04T18:55:05.000Z",
    "deadline": "2027-01-22",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "6f6db7eb270a",
@@ -2128,7 +2373,8 @@
    "url": "https://weworkremotely.com/remote-jobs/vxi-global-solutions-us-remote-patient-care-advocate-customer-service",
    "published_at": "2026-11-04T18:30:56.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "2f0bd501dc70",
@@ -2142,7 +2388,10 @@
    "url": "https://weworkremotely.com/remote-jobs/mantech-requisitioning-agent",
    "published_at": "2026-11-04T17:00:37.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "689c7dc3d0c2",
@@ -2156,7 +2405,10 @@
    "url": "https://weworkremotely.com/remote-jobs/mindrift-physician-md-do-put-medical-ai-to-the-test-remote",
    "published_at": "2026-11-04T17:00:34.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "4d456b9612a5",
@@ -2170,7 +2422,10 @@
    "url": "https://weworkremotely.com/remote-jobs/crazy-maple-studio-screenwriter-reelshort-contractor",
    "published_at": "2026-11-04T17:00:32.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "c251e6a01871",
@@ -2184,7 +2439,8 @@
    "url": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027/",
    "published_at": "2026-11-04T16:42:40.000Z",
    "deadline": "2026-11-30",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "30b438753fe4",
@@ -2198,7 +2454,8 @@
    "url": "https://opportunitydesk.org/2026/11/04/precursor-ventures-ai-investment-operations-internship-2027/",
    "published_at": "2026-11-04T16:38:03.000Z",
    "deadline": "2026-11-29",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "b487655a35b6",
@@ -2212,7 +2469,10 @@
    "url": "https://sfnemploi.com/%d9%85%d9%86%d8%ad-daad-%d8%a7%d9%84%d8%a3%d9%84%d9%85%d8%a7%d9%86%d9%8a%d8%a9-2027-%d8%a7%d9%84%d8%af%d9%84%d9%8a%d9%84-%d8%a7%d9%84%d8%b4%d8%a7%d9%85%d9%84-%d9%84%d9%84%d8%af%d8%b1%d8%a7%d8%b3/",
    "published_at": "2026-11-04T16:26:56.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "DE"
+   ]
   },
   {
    "id": "bc2eedb61a0a",
@@ -2226,7 +2486,8 @@
    "url": "https://tawothifdz.com/%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d8%b1%d8%a8%d9%8a%d8%a9-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%b4%d8%b1%d9%82-%d8%aa%d8%b9%d9%84%d9%86-%d8%b9%d9%86-%d8%aa%d9%88%d8%b8/",
    "published_at": "2026-11-04T15:23:19.000Z",
    "deadline": "2026-11-23",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "fd1178e579d6",
@@ -2240,7 +2501,8 @@
    "url": "https://tawothifdz.com/%d8%a7%d9%84%d9%82%d9%8a%d8%a7%d8%af%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9-%d9%84%d9%84%d9%83%d8%b4%d8%a7%d9%81%d8%a9-%d8%a7%d9%84%d8%a5%d8%b3%d9%84%d8%a7%d9%85%d9%8a%d8%a9-%d8%a7%d9%84%d8%ac/",
    "published_at": "2026-11-04T15:09:18.000Z",
    "deadline": "2026-11-12",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "ca3a96583f3d",
@@ -2254,7 +2516,8 @@
    "url": "https://tawothifdz.com/%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a8%d8%a7%d9%84%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9-%d9%84%d9%84%d9%85%d9%8a%d8%b2%d8%a7/",
    "published_at": "2026-11-04T14:56:12.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "7621d87ab737",
@@ -2268,7 +2531,8 @@
    "url": "https://sfnemploi.com/%d9%85%d9%86%d8%ad%d8%a9-%d8%a5%d9%8a%d8%b1%d8%a7%d8%b3%d9%85%d9%88%d8%b3-%d9%85%d9%88%d9%86%d8%af%d9%88%d8%b3-2027-%d9%84%d9%84%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d9%81%d9%8a-%d8%a3%d9%88%d8%b1%d9%88/",
    "published_at": "2026-11-04T13:16:44.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "151952196ad3",
@@ -2282,7 +2546,8 @@
    "url": "https://opportunitydesk.org/2026/11/04/institute-for-policy-integrity-economic-fellowship-2027/",
    "published_at": "2026-11-04T13:00:46.000Z",
    "deadline": "2026-11-27",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "357ff74e0728",
@@ -2296,7 +2561,10 @@
    "url": "https://weworkremotely.com/remote-jobs/zanda-health-product-owner-1",
    "published_at": "2026-11-04T12:59:25.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "AU"
+   ]
   },
   {
    "id": "986b3a6793d9",
@@ -2310,7 +2578,8 @@
    "url": "https://opportunitydesk.org/2026/11/04/techcongress-programs-internship-2027/",
    "published_at": "2026-11-04T12:47:22.000Z",
    "deadline": "2026-11-12",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "5916c5535509",
@@ -2324,7 +2593,8 @@
    "url": "https://www.opportunitiesforafricans.com/the-ilo-better-regional-migration-management-brmm-programme-university-essay-writing-competition-2026/",
    "published_at": "2026-11-04T12:37:00.000Z",
    "deadline": "2026-11-25",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "e8d70316df09",
@@ -2338,7 +2608,8 @@
    "url": "https://www.opportunitiesforafricans.com/the-ilo-better-regional-migration-management-brmmprogramme-journalism-and-storytelling-competition-2026/",
    "published_at": "2026-11-04T12:29:51.000Z",
    "deadline": "2026-11-25",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "827da4a0a364",
@@ -2352,7 +2623,8 @@
    "url": "https://sfnemploi.com/%d8%aa%d8%b3%d8%ac%d9%8a%d9%84%d8%a7%d8%aa-%d8%b4%d9%87%d8%a7%d8%af%d8%a9-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d9%85%d8%aa%d9%88%d8%b3%d8%b7-2027-%d8%b1%d8%a7%d8%a8%d8%b7-bem-onec/",
    "published_at": "2026-11-04T11:36:29.000Z",
    "deadline": "2026-12-17",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "179877642d1f",
@@ -2366,7 +2638,8 @@
    "url": "https://sfnemploi.com/%d8%a7%d8%b9%d9%84%d8%a7%d9%86-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-140-%d9%85%d9%86%d8%b5%d8%a8%d8%a7-%d9%84%d9%84%d8%b9%d9%85%d8%a7%d9%84-%d8%a7%d9%84%d9%85%d9%87%d9%86%d9%8a%d9%8a%d9%86-%d9%81%d9%8a/",
    "published_at": "2026-11-04T10:50:51.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "b9368a63f5e3",
@@ -2380,7 +2653,8 @@
    "url": "https://www.jobs4dz.com/%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a5%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%aa%d8%b9%d9%84%d9%86-%d8%b9%d9%86-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%ac/",
    "published_at": "2026-11-04T10:48:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "e659fd597bd2",
@@ -2394,7 +2668,8 @@
    "url": "https://www.jobs4dz.com/%d8%a7%d9%84%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9-%d9%84%d9%84%d8%ad%d9%85%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%af%d9%86%d9%8a%d8%a9-%d8%aa%d8%b9%d9%84%d9%86/",
    "published_at": "2026-11-04T10:37:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "e7c2a0e55ce4",
@@ -2408,7 +2683,8 @@
    "url": "https://www.jobs4dz.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%b9%d9%86-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a7%d8%aa-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a8%d8%a7%d9%84%d9%85%d8%b9%d9%87%d8%af-%d8%a7%d9%84%d9%88%d8%b7%d9%86%d9%8a-8/",
    "published_at": "2026-11-04T10:27:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "b590d6792803",
@@ -2422,7 +2698,8 @@
    "url": "https://www.jobs4dz.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%b9%d9%86-%d8%b7%d8%b1%d9%8a%d9%82-%d8%a7%d9%84%d8%aa%d9%83%d9%81%d9%84-%d8%a8%d8%b9%d8%af-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%a7-50/",
    "published_at": "2026-11-04T10:18:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "579f8b693e39",
@@ -2436,7 +2713,8 @@
    "url": "https://opportunitydesk.org/2026/11/04/techcongress-communications-internship-2027/",
    "published_at": "2026-11-04T10:12:12.000Z",
    "deadline": "2026-11-10",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "4c81895ecf3a",
@@ -2450,7 +2728,8 @@
    "url": "https://www.jobs4dz.com/%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%b9%d9%84%d9%89-%d8%a3%d8%b3%d8%a7%d8%b3-%d8%a7%d9%84%d8%b4%d9%87%d8%a7%d8%af%d8%a7%d8%aa-%d9%81%d9%8a-%d8%b9%d8%af%d8%a9-%d9%85/",
    "published_at": "2026-11-04T10:10:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "fa0a99789f02",
@@ -2464,7 +2743,8 @@
    "url": "https://www.jobs4dz.com/%d8%a7%d8%b9%d9%84%d8%a7%d9%86-%d8%b9%d9%86-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%b9%d9%88%d9%86-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a8%d8%af%d9%8a%d9%88%d8%a7%d9%86/",
    "published_at": "2026-11-04T10:00:59.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "8b9299fa12a1",
@@ -2478,7 +2758,8 @@
    "url": "https://www.jobs4dz.com/%d8%a7%d8%b9%d9%84%d8%a7%d9%86-%d8%b9%d9%86-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a7%d8%aa-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d8%af%d9%8a%d8%b1/",
    "published_at": "2026-11-04T09:51:32.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "573bc1647e2f",
@@ -2492,7 +2773,8 @@
    "url": "https://www.jobs4dz.com/%d8%ac%d8%af%d9%8a%d8%af-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%b5%d8%ad%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-06-%d8%a3%d8%b7%d8%a8%d8%a7%d8%a1-%d8%b9%d8%a7%d9%85/",
    "published_at": "2026-11-04T09:37:23.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "dc44d3d8dda7",
@@ -2506,7 +2788,8 @@
    "url": "https://weworkremotely.com/remote-jobs/reframe-space-inc-digital-marketing-organic-growth-and-lead-generation-specialist",
    "published_at": "2026-11-04T09:33:18.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "29f1e87c4ff0",
@@ -2520,7 +2803,8 @@
    "url": "https://sfnemploi.com/%d8%a7%d9%84%d8%aa%d8%b3%d8%ac%d9%8a%d9%84-%d9%81%d9%8a-%d8%a8%d9%83%d8%a7%d9%84%d9%88%d8%b1%d9%8a%d8%a7-2027-%d8%a8%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%a7%d9%84%d8%b4%d8%b1%d9%88%d8%b7/",
    "published_at": "2026-11-04T08:30:15.000Z",
    "deadline": "2026-12-17",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "e095bf119644",
@@ -2534,7 +2818,8 @@
    "url": "https://sfnemploi.com/%d8%b1%d8%a7%d8%a8%d8%b7-%d8%a3%d8%b1%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%81%d9%82%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%af%d8%a7%d8%ba%d9%88%d8%ac%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d9%86/",
    "published_at": "2026-11-04T07:46:14.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "31819361a0bb",
@@ -2548,7 +2833,8 @@
    "url": "https://sfnemploi.com/onefd-%d8%b1%d8%a7%d8%a8%d8%b7-%d8%a3%d8%b1%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%81%d9%82%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%af%d8%a7%d8%ba%d9%88%d8%ac%d9%8a%d8%a9-%d9%88%d8%a7%d9%84/",
    "published_at": "2026-11-03T20:52:19.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "b798ed2c0098",
@@ -2562,7 +2848,10 @@
    "url": "https://weworkremotely.com/remote-jobs/clickguard-inc-revops-manager",
    "published_at": "2026-11-03T19:09:15.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "55ad4ccbc170",
@@ -2576,7 +2865,11 @@
    "url": "https://weworkremotely.com/remote-jobs/turtles-customer-happiness-advocate-remote-canada",
    "published_at": "2026-11-03T18:34:08.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "CA",
+    "FI"
+   ]
   },
   {
    "id": "c643d2a3f161",
@@ -2590,7 +2883,8 @@
    "url": "https://www.opportunitiesforafricans.com/the-rise-up-together-leadership-advocacy-accelerator-program-2027/",
    "published_at": "2026-11-03T17:37:32.000Z",
    "deadline": "2026-11-30",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "516d9e55d73b",
@@ -2604,7 +2898,8 @@
    "url": "https://weworkremotely.com/remote-jobs/m-kopa-senior-crm-manager",
    "published_at": "2026-11-03T17:09:02.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "179ce1cee480",
@@ -2618,7 +2913,10 @@
    "url": "https://weworkremotely.com/remote-jobs/elitebrain-photographer-ai-image-quality-evaluation-remote-u-s",
    "published_at": "2026-11-03T17:00:21.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "0caece7352bb",
@@ -2632,7 +2930,10 @@
    "url": "https://weworkremotely.com/remote-jobs/mantech-quantum-research-scientist",
    "published_at": "2026-11-03T17:00:19.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "19106a0d81fe",
@@ -2646,7 +2947,8 @@
    "url": "https://weworkremotely.com/remote-jobs/custom-mechanical-solutions-quality-and-reliability-engineer",
    "published_at": "2026-11-03T17:00:16.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "4b4588abc3e8",
@@ -2660,7 +2962,8 @@
    "url": "https://tawothifdz.com/%d8%a7%d9%84%d8%ad%d9%85%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%af%d9%86%d9%8a%d8%a9-%d8%aa%d8%b9%d9%84%d9%86-%d8%b9%d9%86-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-3-%d8%a3%d8%b9%d9%88%d8%a7%d9%86-%d9%85%d8%aa/",
    "published_at": "2026-11-03T16:13:48.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "3a58e767f1ba",
@@ -2674,7 +2977,8 @@
    "url": "https://tawothifdz.com/%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a5%d8%b7%d8%a7%d8%b1%d8%a7%d8%aa-%d9%81%d9%8a-%d9%85%d8%ac%d9%85%d8%b9-%d8%a3%d8%ba%d8%b1%d9%88%d8%af%d9%8a%d9%81-agrodiv-2026-%d8%a7%d9%84%d8%b4%d8%b1%d9%88%d8%b7/",
    "published_at": "2026-11-03T15:48:13.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "5c6ad96d533e",
@@ -2688,7 +2992,8 @@
    "url": "https://tawothifdz.com/%d8%a7%d9%84%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b4%d9%81%d8%a7%d8%a6%d9%8a-%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d9%8a-%d8%a8%d9%86%d9%8a-%d9%85%d8%b3%d9%88%d8%b3-%d9%8a%d9%81/",
    "published_at": "2026-11-03T15:05:06.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "66bf4241d9ec",
@@ -2702,7 +3007,8 @@
    "url": "https://tawothifdz.com/%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%81%d9%8a-%d9%85%d8%af%d9%8a%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b1%d8%a8%d9%8a%d8%a9-2026-%d8%a7%d9%84%d9%85%d9%86%d8%a7%d8%b5%d8%a8-%d9%88/",
    "published_at": "2026-11-03T14:50:38.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "229d07044280",
@@ -2716,7 +3022,8 @@
    "url": "https://tawothifdz.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%ac%d8%af%d9%8a%d8%af-%d9%81%d9%8a-%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%b5%d8%ad%d8%a9-%d8%a8%d9%88%d9%84%d8%a7%d9%8a%d8%a9-%d8%b3/",
    "published_at": "2026-11-03T14:41:12.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "66ec123559af",
@@ -2730,7 +3037,10 @@
    "url": "https://weworkremotely.com/remote-jobs/remote-talent-cloud-remote-ai-training-20-hr-united-states-2",
    "published_at": "2026-11-03T14:38:04.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "2dd54c22038a",
@@ -2744,7 +3054,8 @@
    "url": "https://www.jobs4dz.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%b9%d9%86-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a3%d8%b9%d9%88%d8%a7%d9%86-%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d9%88%d8%a3%d8%b9%d9%88/",
    "published_at": "2026-11-03T11:15:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "43d1e1dfb2ea",
@@ -2758,7 +3069,8 @@
    "url": "https://www.jobs4dz.com/%d9%81%d8%aa%d8%ad-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%b9%d9%84%d9%89-%d8%a3%d8%b3%d8%a7%d8%b3-%d8%a7%d9%84%d8%b4%d9%87%d8%a7%d8%af%d8%a7%d8%aa-%d9%84%d9%84%d8%ac/",
    "published_at": "2026-11-03T10:58:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "c75be6c8b291",
@@ -2772,7 +3084,8 @@
    "url": "https://www.jobs4dz.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%84%d8%ad%d8%a7%d8%a6%d8%b2%d9%8a-%d8%b4%d9%87%d8%a7%d8%af%d8%a9-%d8%a7%d9%84%d8%a8%d9%83%d8%a7%d9%84%d9%88%d8%b1%d9%8a%d8%a7-%d8%a8/",
    "published_at": "2026-11-03T10:51:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "b87c8bd71a3c",
@@ -2786,7 +3099,8 @@
    "url": "https://www.jobs4dz.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%b9%d9%86-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%b5%d9%8a%d8%a7%d8%af%d9%84%d8%a9-%d8%b9%d8%a7%d9%85%d9%8a%d9%86-%d8%a8%d8%a7%d9%84/",
    "published_at": "2026-11-03T10:40:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "9fa8139084ab",
@@ -2800,7 +3114,8 @@
    "url": "https://www.jobs4dz.com/%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%ae%d8%a7%d8%b1%d8%ac%d9%8a-%d9%84%d9%85%d9%84%d8%ad%d9%82-%d8%a8%d8%a7%d9%84%d9%85%d9%83%d8%aa%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84/",
    "published_at": "2026-11-03T10:33:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "f5136ed5805a",
@@ -2814,7 +3129,8 @@
    "url": "https://www.jobs4dz.com/%d8%ac%d8%af%d9%8a%d8%af-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%82%d8%b7%d8%a7%d8%b9-%d8%a7%d9%84%d8%b5%d8%ad%d8%a9-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/",
    "published_at": "2026-11-03T10:25:00.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "5de03b0b5139",
@@ -2828,7 +3144,8 @@
    "url": "https://www.jobs4dz.com/%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d8%a8%d9%85%d8%ac%d9%85%d8%b9-%d8%a3%d8%ba%d8%b1%d9%88%d8%af%d9%8a%d9%81-%d9%81%d8%aa%d8%ad-%d8%a8%d8%a7%d8%a8-%d8%a7%d9%84%d8%aa%d8%b1/",
    "published_at": "2026-11-03T10:14:14.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "51fbfceabe32",
@@ -2842,7 +3159,8 @@
    "url": "https://weworkremotely.com/remote-jobs/socure-technical-content-marketing-manager",
    "published_at": "2026-11-02T18:18:39.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "c6a1ddbc677d",
@@ -2856,7 +3174,10 @@
    "url": "https://weworkremotely.com/remote-jobs/crowdstrike-regional-principal-analyst-falcon-complete-remote",
    "published_at": "2026-11-02T17:00:19.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "0439f824c0d1",
@@ -2870,7 +3191,10 @@
    "url": "https://weworkremotely.com/remote-jobs/upgrade-dealer-development-manager-portland-or",
    "published_at": "2026-11-02T07:31:23.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "b8ec5e42578f",
@@ -2884,7 +3208,8 @@
    "url": "https://weworkremotely.com/remote-jobs/smartsheet-principal-software-engineer-remote-eligible-in-bulgaria",
    "published_at": "2026-11-02T07:31:15.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "970d8c166445",
@@ -2898,7 +3223,8 @@
    "url": "https://weworkremotely.com/remote-jobs/assemblyai-sr-technical-recruiter",
    "published_at": "2026-11-02T07:31:12.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "fc242b7144f7",
@@ -2912,7 +3238,10 @@
    "url": "https://weworkremotely.com/remote-jobs/upgrade-dealer-development-manager-las-vegas-nv",
    "published_at": "2026-11-02T07:31:12.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "426567527878",
@@ -2926,7 +3255,8 @@
    "url": "https://weworkremotely.com/remote-jobs/otter-ai-senior-solution-architect",
    "published_at": "2026-11-02T07:31:12.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "b420404db681",
@@ -2940,7 +3270,10 @@
    "url": "https://weworkremotely.com/remote-jobs/glossier-director-of-co-manufacturing-procurement",
    "published_at": "2026-11-02T07:31:12.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "cba0ee817813",
@@ -2954,7 +3287,10 @@
    "url": "https://weworkremotely.com/remote-jobs/salesloft-salesforce-business-systems-administrator",
    "published_at": "2026-11-02T07:31:12.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US"
+   ]
   },
   {
    "id": "a529098b9658",
@@ -2968,7 +3304,8 @@
    "url": "https://weworkremotely.com/remote-jobs/assemblyai-gtm-recruiter",
    "published_at": "2026-11-02T07:31:12.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "1fdd58a0c79f",
@@ -2982,7 +3319,8 @@
    "url": "https://weworkremotely.com/remote-jobs/carrot-telemedicine-registered-nurse-rn-consultant",
    "published_at": "2026-11-02T07:31:04.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "da3926a2cc65",
@@ -2996,7 +3334,8 @@
    "url": "https://weworkremotely.com/remote-jobs/carrot-telemedicine-physician-consultant",
    "published_at": "2026-11-02T07:31:04.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "43234c3e4b38",
@@ -3010,7 +3349,12 @@
    "url": "https://www.scholars4dev.com/2026/10/21/scholarships-in-netherlandsfor-international-students/",
    "published_at": "2026-10-21T10:20:25.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "GB",
+    "DE",
+    "NL"
+   ]
   },
   {
    "id": "7cbf1e1e12a0",
@@ -3024,7 +3368,8 @@
    "url": "https://www.scholars4dev.com/2026/10/06/merit-based-scholarships-for-international-students/",
    "published_at": "2026-10-06T13:46:57.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   },
   {
    "id": "ddf8b73c4789",
@@ -3038,7 +3383,10 @@
    "url": "https://www.scholars4dev.com/2026/10/06/adlerbert-study-scholarships-at-chalmers-university-of-technology/",
    "published_at": "2026-10-06T05:11:05.000Z",
    "deadline": "2027-01-15",
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "SE"
+   ]
   },
   {
    "id": "f9453e634a75",
@@ -3052,7 +3400,13 @@
    "url": "https://www.scholars4dev.com/2026/09/24/scholarships-canada-international-students/",
    "published_at": "2026-09-24T15:09:57.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "US",
+    "CA",
+    "GB",
+    "AU"
+   ]
   },
   {
    "id": "0200cce20c16",
@@ -3066,7 +3420,10 @@
    "url": "https://www.scholars4dev.com/2026/09/24/clarendon-scholarships-at-university-of-oxford/",
    "published_at": "2026-09-24T14:16:49.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": [
+    "GB"
+   ]
   },
   {
    "id": "d2813efe97ab",
@@ -3080,7 +3437,8 @@
    "url": "https://www.scholars4dev.com/2026/09/07/fully-funded-scholarships-international-students/",
    "published_at": "2026-09-07T11:55:58.000Z",
    "deadline": null,
-   "first_seen": "2026-11-05T12:28:37.409Z"
+   "first_seen": "2026-11-05T12:28:37.409Z",
+   "countries": []
   }
  ]
 }
