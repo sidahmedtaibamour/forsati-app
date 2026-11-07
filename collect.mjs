@@ -136,6 +136,39 @@ const ABROAD_RE = new RegExp([
 ].map(norm).join("|"));
 export const isAbroad = (title) => ABROAD_RE.test(norm(title));
 
+/* ---------- countries mentioned in an opportunity ---------- */
+const COUNTRY_ALIASES = {
+  US: ["united states", "usa", "u.s.a", "etats-unis", "الولايات المتحدة"], CA: ["canada", "كندا"], GB: ["united kingdom", "uk", "royaume-uni", "england", "britain", "المملكة المتحدة", "بريطانيا", "انجلترا"],
+  FR: ["france", "فرنسا"], DE: ["germany", "allemagne", "ألمانيا"], IT: ["italy", "italie", "ايطاليا", "إيطاليا"], ES: ["spain", "espagne", "اسبانيا", "إسبانيا"],
+  PT: ["portugal", "البرتغال"], NL: ["netherlands", "pays-bas", "holland", "هولندا"], BE: ["belgium", "belgique", "بلجيكا"], CH: ["switzerland", "suisse", "سويسرا"],
+  SE: ["sweden", "suede", "السويد"], NO: ["norway", "norvege", "النرويج"], DK: ["denmark", "danemark", "الدنمارك"], FI: ["finland", "finlande", "فنلندا"],
+  IE: ["ireland", "irlande", "ايرلندا", "أيرلندا"], AT: ["austria", "autriche", "النمسا"], PL: ["poland", "pologne", "بولندا"], HU: ["hungary", "hongrie", "المجر"],
+  CZ: ["czech", "tcheque", "التشيك"], GR: ["greece", "grece", "اليونان"], RO: ["romania", "roumanie", "رومانيا"], RU: ["russia", "russie", "روسيا"],
+  UA: ["ukraine", "اوكرانيا", "أوكرانيا"], TR: ["turkey", "turkiye", "turquie", "تركيا"], CN: ["china", "chine", "الصين"], JP: ["japan", "japon", "اليابان"],
+  KR: ["south korea", "coree du sud", "كوريا الجنوبية", "كوريا"], IN: ["india", "inde", "الهند"], PK: ["pakistan", "باكستان"], MY: ["malaysia", "malaisie", "ماليزيا"],
+  SG: ["singapore", "singapour", "سنغافورة"], ID: ["indonesia", "indonesie", "اندونيسيا", "إندونيسيا"], TH: ["thailand", "thailande", "تايلاند"], VN: ["vietnam", "فيتنام"],
+  AU: ["australia", "australie", "استراليا", "أستراليا"], NZ: ["new zealand", "nouvelle-zelande", "نيوزيلندا"], SA: ["saudi arabia", "arabie saoudite", "السعودية"],
+  AE: ["united arab emirates", "emirats arabes", "uae", "الامارات", "الإمارات", "دبي"], QA: ["qatar", "قطر"], KW: ["kuwait", "koweit", "الكويت"], BH: ["bahrain", "bahrein", "البحرين"],
+  OM: ["oman", "سلطنة عمان"], JO: ["jordan", "jordanie", "الاردن", "الأردن"], LB: ["lebanon", "liban", "لبنان"], EG: ["egypt", "egypte", "مصر"],
+  TN: ["tunisia", "tunisie", "تونس"], MA: ["morocco", "maroc", "المغرب"], LY: ["libya", "libye", "ليبيا"], SD: ["sudan", "soudan", "السودان"],
+  ZA: ["south africa", "afrique du sud", "جنوب افريقيا", "جنوب أفريقيا"], NG: ["nigeria", "nigeria", "نيجيريا"], KE: ["kenya", "كينيا"], GH: ["ghana", "غانا"],
+  ET: ["ethiopia", "ethiopie", "اثيوبيا", "إثيوبيا"], SN: ["senegal", "senegal", "السنغال"], BR: ["brazil", "bresil", "البرازيل"], MX: ["mexico", "mexique", "المكسيك"],
+  AR: ["argentina", "argentine", "الارجنتين", "الأرجنتين"], CL: ["chile", "chili", "تشيلي"], CO: ["colombia", "colombie", "كولومبيا"], TW: ["taiwan", "taiwan", "تايوان"],
+};
+const COUNTRY_TESTS = Object.entries(COUNTRY_ALIASES).map(([code, names]) => ({
+  code,
+  tests: names.map((n) => {
+    const w = norm(n);
+    if (/[\u0600-\u06FF]/.test(w)) return (t) => t.includes(w);
+    const re = new RegExp(`(^|[^a-z0-9])${esc(w)}([^a-z0-9]|$)`);
+    return (t) => re.test(t);
+  }),
+}));
+export function findCountries(text) {
+  const t = norm(text);
+  return COUNTRY_TESTS.filter(({ tests }) => tests.some((f) => f(t))).map((c) => c.code).slice(0, 4);
+}
+
 /* ---------- deadline extraction ---------- */
 const MONTHS_RAW = {
   janvier: 1, fevrier: 2, mars: 3, avril: 4, mai: 5, juin: 6, juillet: 7, aout: 8, septembre: 9, octobre: 10, novembre: 11, decembre: 12,
@@ -264,7 +297,7 @@ export async function run() {
         byId.set(id, {
           id, title: cut(e.title, 200), summary: cut(text, 280), category,
           country: category === "jobs" && isAbroad(e.title) ? "INT" : (src.country || "DZ"),
-          cost: costOf(e.title, text, category), lang: src.lang || "ar", source: src.name, url,
+          cost: costOf(e.title, text, category), countries: category === "news" ? [] : findCountries(e.title + " " + text), lang: src.lang || "ar", source: src.name, url,
           published_at: pub ? pub.toISOString() : null, deadline: deadline || null, first_seen: now.toISOString(),
         });
         r.added++;
@@ -277,6 +310,7 @@ export async function run() {
   for (const it of byId.values()) {
     const c = classify(it.title, it.summary || "", it.category);
     if (c.category === "news" && c.score >= 3 && it.category !== "news") { it.category = "news"; it.deadline = null; it.cost = null; }
+    if (!Array.isArray(it.countries)) it.countries = it.category === "news" ? [] : findCountries(it.title + " " + (it.summary || ""));
   }
 
   // Expire: past deadline, or too old when no deadline is known.

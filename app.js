@@ -11,7 +11,7 @@ const T = {
     forYou: "مخصّص لك", showAll: "عرض كل الفرص", showMine: "عرض ما يهمني",
     dashTitle: "لوحة التحكم", hello: (n) => `أهلًا ${n}`, statSaved: "المحفوظات", statNew: "جديد لك (3 أيام)", statSoon: "تنتهي خلال أسبوع", soonTitle: "محفوظات تنتهي قريبًا", noSoon: "لا شيء من محفوظاتك ينتهي قريبًا.",
     goSaved: "محفوظاتي", goSettings: "الإعدادات",
-    tabAbout: "عن فرصتي", tabNews: "الأخبار", news: "أخبار", contact: "للتواصل:", killTitle: "التطبيق متوقف مؤقتًا", killText: "نعمل على أمر ما. عد بعد قليل.", privacy: "سياسة الخصوصية", builtBy: "تطبيق مصمم ومطور من", installTitle: "ثبّت التطبيق على هاتفك", installText: "على iPhone: افتح الموقع في Safari ثم زر المشاركة ثم «إضافة إلى الشاشة الرئيسية». على أندرويد: قائمة المتصفح (⋮) ثم «تثبيت التطبيق».",
+    tabAbout: "عن فرصتي", netOff: "أنت غير متصل بالإنترنت", netOn: "أنت متصل بالإنترنت", translate: "ترجمة", trNote: (l) => `ترجمة آلية إلى ${l}`, trOriginal: "عرض الأصل", trGoogle: "Google Translate", trFail: "تعذّرت الترجمة الآن. جرّب Google Translate.", trSame: "النص بهذه اللغة أصلًا.", trWait: "جارٍ الترجمة…", tabNews: "الأخبار", news: "أخبار", contact: "للتواصل:", killTitle: "التطبيق متوقف مؤقتًا", killText: "نعمل على أمر ما. عد بعد قليل.", privacy: "سياسة الخصوصية", builtBy: "تطبيق مصمم ومطور من", installTitle: "ثبّت التطبيق على هاتفك", installText: "على iPhone: افتح الموقع في Safari ثم زر المشاركة ثم «إضافة إلى الشاشة الرئيسية». على أندرويد: قائمة المتصفح (⋮) ثم «تثبيت التطبيق».",
     consent: "بالمتابعة فأنت توافق على", suggest: ["أساتذة", "إداري", "الجيش", "الدرك", "الشرطة", "تكوين مهني", "منحة", "عن بعد"],
     about: {
       title: "عن فرصتي",
@@ -71,7 +71,7 @@ const T = {
     forYou: "Pour vous", showAll: "Tout afficher", showMine: "Mes centres d'intérêt",
     dashTitle: "Tableau de bord", hello: (n) => `Bonjour ${n}`, statSaved: "Enregistrées", statNew: "Nouveautés (3 jours)", statSoon: "Expirent sous 7 jours", soonTitle: "Enregistrées qui expirent bientôt", noSoon: "Rien d'enregistré n'expire bientôt.",
     goSaved: "Mes enregistrées", goSettings: "Réglages",
-    tabAbout: "À propos", tabNews: "Actualités", news: "Actualités", contact: "Contact :", killTitle: "Application temporairement suspendue", killText: "Nous travaillons dessus. Revenez bientôt.", privacy: "Politique de confidentialité", builtBy: "Application conçue et développée par", installTitle: "Installez l'application", installText: "Sur iPhone : ouvrez le site dans Safari, touchez Partager puis « Sur l'écran d'accueil ». Sur Android : menu du navigateur (⋮) puis « Installer l'application ».",
+    tabAbout: "À propos", netOff: "Vous êtes hors ligne", netOn: "Vous êtes de nouveau en ligne", translate: "Traduire", trNote: (l) => `Traduction automatique en ${l}`, trOriginal: "Voir l'original", trGoogle: "Google Traduction", trFail: "Traduction indisponible. Essayez Google Traduction.", trSame: "Le texte est déjà dans cette langue.", trWait: "Traduction…", tabNews: "Actualités", news: "Actualités", contact: "Contact :", killTitle: "Application temporairement suspendue", killText: "Nous travaillons dessus. Revenez bientôt.", privacy: "Politique de confidentialité", builtBy: "Application conçue et développée par", installTitle: "Installez l'application", installText: "Sur iPhone : ouvrez le site dans Safari, touchez Partager puis « Sur l'écran d'accueil ». Sur Android : menu du navigateur (⋮) puis « Installer l'application ».",
     consent: "En continuant, vous acceptez la", suggest: ["enseignants", "administratif", "armée", "gendarmerie", "police", "formation professionnelle", "bourse", "télétravail"],
     about: {
       title: "À propos de Forsati",
@@ -130,7 +130,7 @@ const T = {
     forYou: "For you", showAll: "Show everything", showMine: "Show my interests",
     dashTitle: "Dashboard", hello: (n) => `Hello ${n}`, statSaved: "Saved", statNew: "New for you (3 days)", statSoon: "Ending within a week", soonTitle: "Saved listings ending soon", noSoon: "Nothing you saved ends soon.",
     goSaved: "My saved", goSettings: "Settings",
-    tabAbout: "About", tabNews: "News", news: "News", contact: "Contact:", killTitle: "App temporarily paused", killText: "We are working on it. Please come back soon.", privacy: "Privacy policy", builtBy: "App designed and developed by", installTitle: "Install the app", installText: "On iPhone: open the site in Safari, tap Share, then “Add to Home Screen”. On Android: browser menu (⋮), then “Install app”.",
+    tabAbout: "About", netOff: "You are offline", netOn: "You are back online", translate: "Translate", trNote: (l) => `Machine translation into ${l}`, trOriginal: "Show original", trGoogle: "Google Translate", trFail: "Translation unavailable. Try Google Translate.", trSame: "The text is already in that language.", trWait: "Translating…", tabNews: "News", news: "News", contact: "Contact:", killTitle: "App temporarily paused", killText: "We are working on it. Please come back soon.", privacy: "Privacy policy", builtBy: "App designed and developed by", installTitle: "Install the app", installText: "On iPhone: open the site in Safari, tap Share, then “Add to Home Screen”. On Android: browser menu (⋮), then “Install app”.",
     consent: "By continuing you agree to the", suggest: ["teachers", "admin", "army", "gendarmerie", "police", "vocational", "scholarship", "remote"],
     about: {
       title: "About Forsati",
@@ -193,7 +193,9 @@ const CAT_ICON = {
   tools: S('<path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/>'),
   news: S('<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2M7 9h7M7 13h7M7 16h4"/>'),
 };
+const LANG_NAME = { ar: "العربية", en: "English", fr: "Français" };
 const ICON = {
+  tr: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h8M8 3v2M5 5c1 4 4 7 7 8M11 5c-1 4-4 7-8 9"/><path d="m13 21 4-9 4 9M14.5 18h5"/></svg>',
   heart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-9-9.2C1.8 7.6 3.7 4.5 7 4.5c2 0 3.4 1.1 5 3 1.6-1.9 3-3 5-3 3.3 0 5.2 3.1 4 6.3-2 4.8-9 9.2-9 9.2z"/></svg>',
   share: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>',
   ext: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>',
@@ -211,7 +213,7 @@ const state = {
   lang: T[store.get("forsati-lang")] ? store.get("forsati-lang") : "ar",
   cat: "all", country: "all", cost: "all", sort: "new", q: "", tab: "all",
   items: [], base: [], manual: [], hidden: new Set(), updatedAt: null, loaded: false, failed: false, favs: new Map(),
-  showAll: false,
+  showAll: false, tr: {}, trOpen: null, trBusy: false,
   prefs: { theme: "system", fs: "m", cats: null, country: "all" },
 };
 const PREF_DEF = { theme: "system", fs: "m", cats: null, country: "all" };
@@ -350,6 +352,84 @@ function showKill(message) {
   document.body.appendChild(d);
 }
 
+/* ---------- translation (free MyMemory API; Google Translate link as fallback) ---------- */
+function isArabicText(it) {
+  const s = String(it.title || "");
+  const ar = (s.match(/[\u0600-\u06FF]/g) || []).length, letters = (s.match(/[A-Za-z\u00C0-\u017F\u0600-\u06FF]/g) || []).length;
+  return letters > 0 && ar / letters >= 0.4;
+}
+function srcLang(it) {
+  if (it.lang === "fr" || it.lang === "en") return it.lang;
+  const s = ` ${it.title} ${it.summary || ""} `.toLowerCase();
+  return /[àâçéèêëîïôûùüÿœ]| (le|la|les|des|pour|et|du|un|une) /.test(s) ? "fr" : "en";
+}
+function chunks(text, max = 450) {
+  const out = []; let rest = text.trim();
+  while (rest.length > max) {
+    let i = Math.max(rest.lastIndexOf(". ", max), rest.lastIndexOf(" ", max));
+    if (i < 100) i = max;
+    out.push(rest.slice(0, i + 1).trim()); rest = rest.slice(i + 1).trim();
+  }
+  if (rest) out.push(rest);
+  return out;
+}
+async function machineTranslate(text, from, to) {
+  if (!text) return "";
+  const parts = [];
+  for (const c of chunks(text)) {
+    const r = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(c)}&langpair=${from}|${to}`);
+    const j = await r.json();
+    const out = j && j.responseData && j.responseData.translatedText;
+    if (!r.ok || !out || /MYMEMORY WARNING|INVALID/i.test(out) || String(j.responseStatus) !== "200") throw new Error("mt");
+    parts.push(out);
+  }
+  return parts.join(" ");
+}
+async function translateItem(id, to) {
+  const it = lookup(id); if (!it || state.trBusy) return;
+  const from = srcLang(it);
+  if (from === to) { toast(t("trSame")); return; }
+  state.trBusy = true; toast(t("trWait"));
+  try {
+    const [title, summary] = [await machineTranslate(it.title, from, to), await machineTranslate(it.summary || "", from, to)];
+    state.tr[id] = { lang: to, title, summary };
+    state.trOpen = null;
+    $("#toast").hidden = true;
+  } catch (e) { console.error(e); toast(t("trFail")); }
+  state.trBusy = false; render();
+}
+function trMenu(it) {
+  const from = srcLang(it);
+  const gl = (to) => `https://translate.google.com/?sl=auto&tl=${to}&text=${encodeURIComponent(`${it.title}\n\n${it.summary || ""}`.slice(0, 1500))}&op=translate`;
+  return `<div class="tr-menu">${["ar", "en", "fr"].filter((l) => l !== from).map((l) => `<button type="button" data-trl="${l}" data-id="${esc(it.id)}">${LANG_NAME[l]}</button>`).join("")}
+    <a href="${esc(gl(from === "ar" ? "en" : "ar"))}" target="_blank" rel="noopener noreferrer">${esc(t("trGoogle"))}</a></div>`;
+}
+
+/* ---------- countries: names, search aliases, continents ---------- */
+const CONT = {
+  europe: { names: ["europe", "أوروبا", "اوروبا"], codes: "FR DE IT ES PT NL BE CH SE NO DK FI IE AT PL HU CZ GR RO GB UA RU TR" },
+  asia: { names: ["asia", "asie", "آسيا", "اسيا"], codes: "CN JP KR IN PK MY SG ID TH VN TW TR SA AE QA KW BH OM JO LB" },
+  africa: { names: ["africa", "afrique", "أفريقيا", "افريقيا"], codes: "EG TN MA LY SD ZA NG KE GH ET SN" },
+  namerica: { names: ["north america", "amerique du nord", "أمريكا الشمالية", "امريكا الشمالية"], codes: "US CA MX" },
+  samerica: { names: ["south america", "amerique du sud", "أمريكا الجنوبية", "امريكا الجنوبية"], codes: "BR AR CL CO" },
+  oceania: { names: ["oceania", "oceanie", "أوقيانوسيا", "اوقيانوسيا"], codes: "AU NZ" },
+  arab: { names: ["arab countries", "pays arabes", "الدول العربية", "العالم العربي"], codes: "SA AE QA KW BH OM JO LB EG TN MA LY SD" },
+};
+const CALIAS = { US: ["usa", "america", "امريكا", "أمريكا", "united states"], GB: ["uk", "britain", "england", "بريطانيا", "انجلترا"], AE: ["uae", "الامارات", "دبي"], SA: ["saudi", "السعودية"], KR: ["korea", "كوريا"] };
+const cnames = {};
+function regionName(code, lang = state.lang) {
+  try { return new Intl.DisplayNames([lang], { type: "region" }).of(code) || code; } catch { return code; }
+}
+function countryKey(code) {
+  if (!cnames[code]) cnames[code] = fold(["ar", "fr", "en"].map((l) => regionName(code, l)).concat(CALIAS[code] || []).join(" | "));
+  return cnames[code];
+}
+function matchCountry(it, fq) {
+  const cs = it.countries || [];
+  if (fq.length < 3 || !cs.length) return false;
+  return cs.some((c) => countryKey(c).includes(fq) || Object.values(CONT).some((k) => k.codes.split(" ").includes(c) && k.names.some((n) => fold(n).includes(fq) || fq === fold(n))));
+}
+
 /* ---------- rendering ---------- */
 function filtered(base) {
   const q = fold(state.q.trim());
@@ -358,13 +438,15 @@ function filtered(base) {
     if (state.tab === "all" && !state.showAll && state.prefs.cats && !state.prefs.cats.includes(it.category)) return false;
     if (state.country !== "all" && it.country !== state.country) return false;
     if (state.cost !== "all" && it.cost !== state.cost) return false;
-    if (q && !fold(`${it.title} ${it.summary || ""} ${it.source || ""}`).includes(q)) return false;
+    if (q && !fold(`${it.title} ${it.summary || ""} ${it.source || ""}`).includes(q) && !matchCountry(it, q)) return false;
     return true;
   });
 }
 function card(it, savedView) {
   const c = `var(--cat-${CATS.includes(it.category) || it.category === "news" ? it.category : "tools"})`;
   const fav = state.favs.has(it.id);
+  const tr = state.tr[it.id];
+  const canTr = it.category !== undefined && !isArabicText(it);
   let pill;
   if (it.category === "news") pill = "";
   else if (it.deadline) {
@@ -375,15 +457,16 @@ function card(it, savedView) {
   else pill = `<span class="pill none">${t("noDeadline")}</span>`;
   const ago = agoLabel(it);
   return `<article class="card" style="--c:${c}">
-    <div class="meta"><span class="cat">${CAT_ICON[it.category] || ""}${esc(t(it.category) || "")}</span><span>${esc(countryLabel(it.country || "DZ"))}</span>${it.cost ? `<span class="cost ${it.cost}">${esc(t(it.cost))}</span>` : ""}</div>
-    <h3>${esc(it.title)}</h3>
-    ${it.summary ? `<p class="sum">${esc(it.summary)}</p>` : ""}
+    <div class="meta"><span class="cat">${CAT_ICON[it.category] || ""}${esc(t(it.category) || "")}</span><span>${esc(countryLabel(it.country || "DZ"))}${it.countries && it.countries.length ? " · " + esc(it.countries.map((c) => regionName(c)).join("، ")) : ""}</span>${it.cost ? `<span class="cost ${it.cost}">${esc(t(it.cost))}</span>` : ""}</div>
+    <h3${tr && tr.lang === "ar" ? ' lang="ar"' : ""}>${esc(tr ? tr.title : it.title)}</h3>
+    ${(tr ? tr.summary : it.summary) ? `<p class="sum">${esc(tr ? tr.summary : it.summary)}</p>` : ""}
     <div class="when">${pill}<span>${esc([ago, it.source].filter(Boolean).join(" · "))}</span></div>
     <div class="actions">
       <a class="btn primary" href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener noreferrer">${ICON.ext}<span>${t("open")}</span></a>
       <button type="button" class="icon-btn" data-fav="${esc(it.id)}" aria-pressed="${fav}" aria-label="${esc(fav ? t("unsave") : t("save"))}">${ICON.heart}</button>
       <button type="button" class="icon-btn" data-share="${esc(it.id)}" aria-label="${esc(t("share"))}">${ICON.share}</button>
-    </div></article>`;
+      ${canTr ? `<button type="button" class="icon-btn" data-tr="${esc(it.id)}" aria-expanded="${state.trOpen === it.id}" aria-label="${esc(t("translate"))}">${ICON.tr}</button>` : ""}
+    </div>${state.trOpen === it.id ? trMenu(it) : ""}${tr ? `<p class="tr-note">${esc(t("trNote", LANG_NAME[tr.lang]))} · <button type="button" class="link" data-tro="${esc(it.id)}">${esc(t("trOriginal"))}</button></p>` : ""}</article>`;
 }
 function render() {
   const list = $("#list");
@@ -626,7 +709,11 @@ async function guarded(fn) {
 /* ---------- events ---------- */
 $("#list").addEventListener("click", (e) => {
   const fav = e.target.closest("[data-fav]"), sh = e.target.closest("[data-share]");
-  if (fav) toggleFav(fav.dataset.fav);
+  const tb = e.target.closest("[data-tr]"), tl = e.target.closest("[data-trl]"), to = e.target.closest("[data-tro]");
+  if (tb) { state.trOpen = state.trOpen === tb.dataset.tr ? null : tb.dataset.tr; render(); }
+  else if (tl) translateItem(tl.dataset.id, tl.dataset.trl);
+  else if (to) { delete state.tr[to.dataset.tro]; render(); }
+  else if (fav) toggleFav(fav.dataset.fav);
   else if (sh) {
     const it = lookup(sh.dataset.share); if (!it) return;
     (async () => {
@@ -692,6 +779,19 @@ Auth.onChange(async (user, event) => {
   else if (dlg.open) renderAuth();
 });
 
+/* ---------- online / offline banner ---------- */
+let netTimer;
+const WIFI = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0M12 19.5h.01"/>';
+function netBanner(online) {
+  const b = $("#net"); clearTimeout(netTimer);
+  b.className = online ? "on" : "off";
+  b.innerHTML = `${WIFI}${online ? "" : '<path d="M3 3l18 18"/>'}</svg><span>${esc(t(online ? "netOn" : "netOff"))}</span>`;
+  b.hidden = false;
+  if (online) netTimer = setTimeout(() => { b.hidden = true; }, 3000);
+}
+window.addEventListener("offline", () => netBanner(false));
+window.addEventListener("online", () => netBanner(true));
+
 /* ---------- start ---------- */
 const splashStart = performance.now();
 function hideSplash() {
@@ -699,6 +799,7 @@ function hideSplash() {
   const wait = Math.max(0, 1200 - (performance.now() - splashStart));
   setTimeout(() => { sp.classList.add("out"); setTimeout(() => sp.remove(), 450); }, wait);
 }
+if (!navigator.onLine) netBanner(false);
 state.favs = loadLocal();
 applyI18n();
 setTab("all");
