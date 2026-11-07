@@ -1,7 +1,49 @@
 {
- "updated_at": "2026-11-06T18:58:56.567Z",
- "count": 217,
+ "updated_at": "2026-11-07T01:05:51.460Z",
+ "count": 220,
  "items": [
+  {
+   "id": "130afebfd10b",
+   "title": "Call for judges : Join the OD Impact Challenge 2026 global judging panel",
+   "summary": "Are you passionate about youth leadership, innovation and social impact? Opportunity Desk invites experienced professionals, entrepreneurs, development practitioners and industry leaders to join the global judging panel for the Opportunity Desk Impact Challenge (ODIC) 2026. The…",
+   "category": "competitions",
+   "country": "INT",
+   "cost": null,
+   "lang": "en",
+   "source": "Opportunity Desk",
+   "url": "https://opportunitydesk.org/2026/11/07/call-for-judges-join-the-od-impact-challenge-2026-global-judging-panel/",
+   "published_at": "2026-11-07T00:19:14.000Z",
+   "deadline": null,
+   "first_seen": "2026-11-07T01:05:51.460Z"
+  },
+  {
+   "id": "8e689daac8ad",
+   "title": "تمويل البحث والابتكار في الجزائر: إلزام المؤسسات الاقتصادية بتخصيص 1% من أرباحها لهذه الأنشطة",
+   "summary": "في خطوة تهدف إلى تعزيز البحث العلمي والابتكار وربط الجامعة الجزائرية بالمحيط الاقتصادي، صدر قرار وزاري مشترك جديد يحدد كيفيات تمويل البحث والابتكار، ويضبط المؤسسات المعنية والأنشطة المؤهلة للاستفادة من هذا التمويل، إلى جانب إجراءات التصريح الإلكتروني بالنفقات. ويتعلق الأمر…",
+   "category": "jobs",
+   "country": "DZ",
+   "cost": null,
+   "lang": "ar",
+   "source": "SFN Emploi",
+   "url": "https://sfnemploi.com/%d8%aa%d9%85%d9%88%d9%8a%d9%84-%d8%a7%d9%84%d8%a8%d8%ad%d8%ab-%d9%88%d8%a7%d9%84%d8%a7%d8%a8%d8%aa%d9%83%d8%a7%d8%b1-%d9%81%d9%8a-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%a5%d9%84%d8%b2%d8%a7/",
+   "published_at": "2026-11-06T20:25:25.000Z",
+   "deadline": "2027-01-31",
+   "first_seen": "2026-11-07T01:05:51.460Z"
+  },
+  {
+   "id": "9dd4b48efca2",
+   "title": "OpenTrain AI: Full-Stack Engineer",
+   "summary": "Headquarters: United States URL: https://opentrain.ai/ Full-Stack Engineer, Part-Time AI Code Evaluation - Remote (United States) • $50–$100 per hour equivalent, paid per accepted task • 100% remote • Part-time • Under 20 hours a week, you choose when Work on AI code evaluation…",
+   "category": "jobs",
+   "country": "INT",
+   "cost": null,
+   "lang": "en",
+   "source": "We Work Remotely",
+   "url": "https://weworkremotely.com/remote-jobs/opentrain-ai-full-stack-engineer",
+   "published_at": "2026-11-06T20:13:18.000Z",
+   "deadline": null,
+   "first_seen": "2026-11-07T01:05:51.460Z"
+  },
   {
    "id": "92f5187e1eb3",
    "title": "Karat: Software Engineer Interviewer",
